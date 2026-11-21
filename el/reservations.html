@@ -1,0 +1,900 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://maps.google.com https://maps.gstatic.com https://www.google.com https://*.google-analytics.com https://*.analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://googleads.g.doubleclick.net https://www.googleadservices.com https://www.google.gr https://*.doubleclick.net https://www.google.de https://www.google.fr https://www.google.es https://www.google.it https://www.google.co.uk https://www.google.com.hk; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net; frame-src https://maps.google.com https://www.google.com https://www.googletagmanager.com https://td.doubleclick.net https://bid.g.doubleclick.net https://*.doubleclick.net; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://*.google-analytics.com https://*.analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.gr https://*.doubleclick.net https://www.google.de https://www.google.fr https://www.google.es https://www.google.it https://www.google.co.uk https://www.google.com.hk; form-action 'self' https://wa.me; base-uri 'self'; object-src 'none'" />
+<!-- Google Consent Mode v2 — analytics & ads denied until the visitor opts in -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent','default',{
+    ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied',
+    analytics_storage:'denied', functionality_storage:'denied',
+    personalization_storage:'denied', security_storage:'granted', wait_for_update:500
+  });
+  (function(){
+    try {
+      var d = JSON.parse(localStorage.getItem('cookaki_consent'));
+      if (d && d.version===1 && (Date.now()-(d.ts||0) < 31536000000) && d.categories){
+        var c = d.categories;
+        gtag('consent','update',{
+          analytics_storage:c.analytics?'granted':'denied',
+          ad_storage:c.marketing?'granted':'denied',
+          ad_user_data:c.marketing?'granted':'denied',
+          ad_personalization:c.marketing?'granted':'denied',
+          functionality_storage:c.preferences?'granted':'denied',
+          personalization_storage:c.preferences?'granted':'denied'
+        });
+        gtag('set','ads_data_redaction', !c.marketing);
+      } else { gtag('set','ads_data_redaction', true); }
+    } catch(e){ gtag('set','ads_data_redaction', true); }
+  })();
+  gtag('set','url_passthrough', true);
+  dataLayer.push({ page_language: (document.documentElement.lang || 'en').toLowerCase() });
+  gtag('js', new Date());
+</script>
+<link rel="stylesheet" href="../assets/css/consent.css" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K6C53VGR');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#FCFAF6" />
+
+<title>Κρατήσεις — Cookaki | Bell Kitchen, Κουκάκι Αθήνα</title>
+<meta name="description" content="Κλείστε τραπέζι στο Cookaki στο Κουκάκι, Αθήνα — πέντε λεπτά από το Μουσείο Ακρόπολης. Δείτε τι μαγειρεύουμε κάθε μέρα και κρατήστε τα πιάτα σας πριν εξαντληθούν." />
+<link rel="canonical" href="https://www.bellacropolis.gr/el/reservations.html" />
+<link rel="alternate" hreflang="en" href="https://www.bellacropolis.gr/reservations.html" />
+<link rel="alternate" hreflang="el" href="https://www.bellacropolis.gr/el/reservations.html" />
+<link rel="alternate" hreflang="de" href="https://www.bellacropolis.gr/de/reservations.html" />
+<link rel="alternate" hreflang="fr" href="https://www.bellacropolis.gr/fr/reservations.html" />
+<link rel="alternate" hreflang="es" href="https://www.bellacropolis.gr/es/reservations.html" />
+<link rel="alternate" hreflang="zh" href="https://www.bellacropolis.gr/zh/reservations.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.bellacropolis.gr/reservations.html" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Κρατήσεις — Cookaki" />
+<meta property="og:url" content="https://www.bellacropolis.gr/el/reservations.html" />
+<meta property="og:description" content="Κλείστε τραπέζι στο Cookaki, κάτω από την Ακρόπολη — και κρατήστε τα πιάτα της ημέρας πριν εξαντληθούν." />
+<meta property="og:image" content="https://www.bellacropolis.gr/assets/images/bell-kitchen-plaque.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" /></noscript>
+<link rel="icon" type="image/png" href="../assets/images/bell-kitchen-logo.png" />
+<link rel="stylesheet" href="../assets/css/main.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ReserveAction",
+  "name": "Reserve a table at Cookaki",
+  "target": "https://www.bellacropolis.gr/el/reservations.html",
+  "object": { "@id": "https://www.bellacropolis.gr/#restaurant" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Αρχική", "item": "https://www.bellacropolis.gr/el/" },
+    { "@type": "ListItem", "position": 2, "name": "Κρατήσεις", "item": "https://www.bellacropolis.gr/el/reservations.html" }
+  ]
+}
+</script>
+<!-- MOD: connect-src now allows the Apps Script booking backend
+     (script.google.com redirects to script.googleusercontent.com — both needed). -->
+
+<!-- MOD: booking-wizard styles — scoped under .bkg- so nothing collides with main.css -->
+<style>
+.bkg-progress{display:flex;gap:6px;margin-bottom:var(--sp-3)}
+.bkg-progress i{flex:1;height:3px;border-radius:2px;background:var(--beige);transition:background var(--t-base) var(--ease)}
+.bkg-progress i.on{background:var(--saffron)}
+.bkg-step{display:none}
+.bkg-step.on{display:block;animation:bkgFade var(--t-base) var(--ease)}
+@keyframes bkgFade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.bkg-q{font-family:var(--font-display);font-size:var(--fs-lg);font-weight:600;color:var(--olive);margin-bottom:.25rem}
+.bkg-sub{color:var(--ink-muted);font-size:var(--fs-sm);margin-bottom:var(--sp-3)}
+.bkg-back{background:none;border:none;color:var(--ink-muted);font-size:var(--fs-sm);cursor:pointer;padding:0;margin-bottom:var(--sp-2);display:inline-flex;align-items:center;gap:.35rem}
+.bkg-back:hover{color:var(--olive)}
+.bkg-grid{display:grid;gap:10px;grid-template-columns:repeat(4,1fr)}
+@media(max-width:480px){.bkg-grid{grid-template-columns:repeat(3,1fr)}}
+.bkg-opt{border:1.5px solid var(--line-strong);border-radius:var(--radius);background:#fff;padding:.9rem .4rem;text-align:center;font-family:var(--font-body);font-size:var(--fs-base);color:var(--olive);cursor:pointer;transition:all var(--t-fast) var(--ease);min-height:54px}
+.bkg-opt:hover{border-color:var(--saffron)}
+.bkg-opt.sel{background:var(--olive);border-color:var(--olive);color:var(--cream);font-weight:600}
+.bkg-opt:disabled{opacity:.35;cursor:not-allowed}
+.bkg-opt small{display:block;font-size:var(--fs-xs);opacity:.75;margin-top:2px}
+.bkg-opt b{display:block;font-family:var(--font-display);font-size:1.35rem;line-height:1.1}
+.bkg-svc{margin:var(--sp-3) 0 var(--sp-1);font-size:var(--fs-xs);letter-spacing:.18em;text-transform:uppercase;color:var(--saffron);font-weight:600}
+.bkg-notice{border:1px solid var(--line);border-left:3px solid var(--saffron);background:#fff;border-radius:0 var(--radius) var(--radius) 0;padding:1rem 1.2rem;font-size:var(--fs-sm);color:var(--ink-muted);line-height:1.55;margin-top:var(--sp-2)}
+.bkg-notice .btn{margin-top:.7rem}
+.bkg-scarce{display:inline-block;background:rgba(182,139,58,.14);color:#7d5f22;font-size:var(--fs-xs);padding:.2rem .8rem;border-radius:99px;margin-bottom:var(--sp-2)}
+.bkg-plate{display:flex;align-items:center;gap:12px;background:#fff;border:1.5px solid var(--line);border-radius:var(--radius);padding:.8rem 1rem;margin-bottom:.6rem;transition:border-color var(--t-fast) var(--ease)}
+.bkg-plate.sel{border-color:var(--saffron);box-shadow:0 0 0 1px var(--saffron)}
+.bkg-plate .tx{flex:1;min-width:0}
+.bkg-plate .nm{font-family:var(--font-display);font-weight:600;font-size:var(--fs-md);color:var(--olive);line-height:1.2}
+.bkg-plate .ds{font-size:var(--fs-xs);color:var(--ink-muted);line-height:1.4}
+.bkg-plate .pr{font-weight:600;color:var(--olive);white-space:nowrap;font-size:var(--fs-sm)}
+.bkg-qty{display:flex;align-items:center;border:1px solid var(--line-strong);border-radius:99px;overflow:hidden;background:#fff}
+.bkg-qty button{width:34px;height:34px;font-size:1.1rem;color:var(--ink-muted);border:none;background:none;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.bkg-qty button:hover{background:var(--cream-warm)}
+.bkg-qty b{min-width:22px;text-align:center;font-size:var(--fs-sm)}
+.bkg-skip{display:block;margin:var(--sp-2) auto 0;background:none;border:none;color:var(--ink-muted);text-decoration:underline;font-size:var(--fs-sm);cursor:pointer}
+.bkg-review{background:#fff;border:1px solid var(--line);border-radius:var(--radius-lg);padding:var(--sp-3)}
+.bkg-row{display:flex;justify-content:space-between;gap:1rem;padding:.55rem 0;border-bottom:1px dashed var(--line);font-size:var(--fs-sm)}
+.bkg-row:last-child{border:none}
+.bkg-row span{color:var(--ink-muted)}
+.bkg-row b{color:var(--olive);text-align:right}
+.bkg-row .bkg-edit{background:none;border:none;color:var(--terracotta);font-size:var(--fs-xs);text-decoration:underline;cursor:pointer;margin-left:.5rem}
+.bkg-cta{margin-top:var(--sp-3)}
+.bkg-cta .btn{width:100%}
+.bkg-cta .bkg-note{text-align:center;font-size:var(--fs-xs);color:var(--ink-muted);margin-top:.6rem}
+.bkg-done{text-align:center;padding:var(--sp-3) 0}
+.bkg-done .bkg-mark{width:70px;height:70px;border-radius:50%;background:var(--saffron);color:#fff;font-size:1.9rem;display:flex;align-items:center;justify-content:center;margin:0 auto var(--sp-2)}
+.bkg-done h2{font-family:var(--font-display);color:var(--olive);font-size:var(--fs-xl);margin-bottom:.5rem}
+.bkg-kerasma{font-family:var(--font-display);font-style:italic;font-size:var(--fs-md);color:var(--ink-muted);max-width:44ch;margin:var(--sp-2) auto;line-height:1.5}
+.bkg-acts{display:grid;gap:.6rem;max-width:400px;margin:var(--sp-2) auto 0}
+.bkg-err{color:#8a2f1c;font-size:var(--fs-xs);margin-top:.35rem;display:none}
+.bkg-privnotice{background:rgba(0,0,0,.035);border-left:3px solid var(--olive);border-radius:6px;padding:.85rem 1rem;margin-bottom:.95rem}
+.bkg-privnotice p{font-size:var(--fs-xs);line-height:1.65;color:var(--ink-muted);margin:0}
+.bkg-optin{margin-top:.7rem}
+.bkg-optin-foot{font-size:var(--fs-xs);margin-top:.7rem}
+.bkg-hp{position:absolute;left:-5000px;opacity:0}
+.bkg-spin{display:inline-block;width:16px;height:16px;border:2px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:bkgSp 1s linear infinite;vertical-align:-3px;margin-right:.4rem}
+@keyframes bkgSp{to{transform:rotate(360deg)}}
+</style>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6C53VGR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>
+
+<header class="site-header" role="banner">
+  <div class="container">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="logo logo--mark">
+        <img src="../assets/images/bell-kitchen-logo.png" alt="Bell Kitchen — Cookaki Athens" width="46" height="46" fetchpriority="high"/>
+        <span class="logo-text"><strong>Bell Kitchen</strong><small>Cookaki · Κουκάκι · Από το 1956</small></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="menu.html">Μενού</a></li><li><a href="takeaway.html">Take Away</a></li>
+        <li><a href="about.html">Η Ιστορία μας</a></li>
+        <li><a href="ingredients.html">Τα Υλικά μας</a></li>
+        <li><a href="events.html">Εκδηλώσεις &amp; Catering</a></li>
+        <li><a href="products.html">Παντοπωλείο</a></li>
+        <li><a href="contact.html">Επισκεφθείτε μας</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="lang-switch" href="../reservations.html" hreflang="en" lang="en" aria-label="View this page in English"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.7 2.6 15.3 0 18M12 3c-2.6 2.7-2.6 15.3 0 18"/></svg><span class="lang-label">English</span></a>
+        <a href="https://noe.bfwqr.com/" class="btn btn--ghost btn--small" target="_blank" rel="noopener noreferrer">Παραγγελία</a>
+        <a href="reservations.html" aria-current="page" class="btn btn--primary btn--small">Κράτηση</a>
+      </div>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span></button>
+    </nav>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" data-open="false" role="dialog" aria-modal="true" aria-label="Site menu">
+    <ul>
+      <li><a href="index.html">Αρχική</a></li>
+      <li><a href="menu.html">Μενού</a></li>
+      <li><a href="takeaway.html">Take Away</a></li>
+      <li><a href="about.html">Η Ιστορία μας — Από το 1956</a></li><li><a href="manifesto.html">Μανιφέστο</a></li>
+      <li><a href="ingredients.html">Τα Υλικά μας</a></li>
+      <li><a href="events.html">Εκδηλώσεις &amp; Catering</a></li>
+      <li><a href="products.html">Παντοπωλείο &amp; Προϊόντα</a></li>
+      <li><a href="gallery.html">Φωτογραφίες</a></li><li><a href="press.html">Τύπος</a></li>
+      <li><a href="reservations.html" aria-current="page">Κρατήσεις</a></li>
+      <li><a href="delivery.html">Delivery &amp; Takeaway</a></li>
+      <li><a href="contact.html">Επίσκεψη &amp; Επικοινωνία</a></li>
+      <li><a class="mobile-lang" href="../reservations.html" hreflang="en" lang="en"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.7 2.6 15.3 0 18M12 3c-2.6 2.7-2.6 15.3 0 18"/></svg><span class="lang-label">English</span></a></li>
+    </ul>
+    <div class="mobile-cta">
+      <a href="https://noe.bfwqr.com/" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Παραγγελία Online</a>
+      <a href="https://wa.me/306982373505" class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Κρατήσεις</p>
+    <h1>Καθίστε στο τραπέζι μας</h1>
+    <p class="lede">Πέντε λεπτά από το Μουσείο Ακρόπολης, τρεις γενιές από το 1956. Κράτηση σε λιγότερο από ένα λεπτό — και κρατήστε τα σπιτικά πιάτα της ημέρας πριν εξαντληθούν.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container container--narrow">
+    <div class="form-card">
+
+      <!-- ================================================================
+           Οδηγός κράτησης — μία ερώτηση ανά οθόνη, με backend Apps Script
+           (Google Sheet + καθημερινό μενού).
+           ================================================================ -->
+      <div class="bkg-progress" id="bkgProgress" aria-hidden="true"></div>
+
+      <!-- ΒΗΜΑ 0 · ΑΤΟΜΑ -->
+      <section class="bkg-step on" id="bkgS0">
+        <p class="bkg-q">Πόσα άτομα;</p>
+        <p class="bkg-sub">Και τα παιδιά μετράνε — έχουμε χώρο για όλους.</p>
+        <div class="bkg-grid" id="bkgParty"></div>
+        <div class="bkg-notice" id="bkgGroupNote" hidden>
+          <strong>Υπέροχα — μεγάλο τραπέζι!</strong> Για 9 ή περισσότερα άτομα κανονίζουμε τη διάταξη (και, αν θέλετε, ένα μικρό set menu) προσωπικά. Στείλτε μας μήνυμα στο WhatsApp — απαντάμε μέσα σε λίγα λεπτά τις ώρες λειτουργίας.
+          <br><a class="btn btn--whatsapp btn--small" id="bkgGroupWa" href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer">WhatsApp για την παρέα σας</a>
+        </div>
+      </section>
+
+      <!-- ΒΗΜΑ 1 · ΗΜΕΡΑ -->
+      <section class="bkg-step" id="bkgS1">
+        <button type="button" class="bkg-back" data-goto="0">← Πίσω</button>
+        <p class="bkg-q">Ποια μέρα;</p>
+        <p class="bkg-sub">Το μενού αλλάζει καθημερινά — διαλέξτε μέρα και δείτε τι μαγειρεύουμε.</p>
+        <div class="bkg-grid" id="bkgDates"></div>
+        <p class="bkg-notice" id="bkgDateNote" hidden></p>
+      </section>
+
+      <!-- ΒΗΜΑ 2 · ΩΡΑ -->
+      <section class="bkg-step" id="bkgS2">
+        <button type="button" class="bkg-back" data-goto="1">← Πίσω</button>
+        <p class="bkg-q">Τι ώρα;</p>
+        <p class="bkg-sub" id="bkgTimeSub">Ώρα Ελλάδας. Τελευταίο τραπέζι 30 λεπτά πριν το κλείσιμο.</p>
+        <div id="bkgSlots"></div>
+        <p class="bkg-notice" id="bkgPauseNote" hidden></p>
+        <p class="bkg-err" id="bkgErrTime">Παρακαλούμε επιλέξτε ώρα.</p>
+      </section>
+
+      <!-- ΒΗΜΑ 3 · ΠΙΑΤΑ -->
+      <section class="bkg-step" id="bkgS3">
+        <button type="button" class="bkg-back" data-goto="2">← Πίσω</button>
+        <p class="bkg-q" id="bkgMenuTitle">Σήμερα από την κουζίνα</p>
+        <p class="bkg-sub">Προαιρετικό — κρατήστε τα πιάτα σας τώρα και θα σας περιμένουν στο τραπέζι. Πληρώνετε στο εστιατόριο.</p>
+        <span class="bkg-scarce">★ Τα μαγειρευτά της ημέρας συχνά τελειώνουν ως τις 21:00</span>
+        <div id="bkgMenu"></div>
+        <button type="button" class="bkg-skip" id="bkgSkip">Θα διαλέξω στο τραπέζι →</button>
+      </section>
+
+      <!-- ΒΗΜΑ 4 · ΣΤΟΙΧΕΙΑ -->
+      <section class="bkg-step" id="bkgS4">
+        <button type="button" class="bkg-back" data-goto="3">← Πίσω</button>
+        <p class="bkg-q">Τελευταίο βήμα — ποιος έρχεται;</p>
+        <p class="bkg-sub">Μόνο όνομα και τηλέφωνο. Χωρίς λογαριασμό, χωρίς spam.</p>
+        <div class="form-grid">
+          <div class="field field--full">
+            <label for="bkgName">Ονοματεπώνυμο</label>
+            <input id="bkgName" type="text" autocomplete="name" placeholder="Maria Papadopoulou" maxlength="120" required>
+            <p class="bkg-err" id="bkgErrName">Πείτε μας το όνομά σας.</p>
+          </div>
+          <div class="field">
+            <label for="bkgPhone">Τηλέφωνο (κατά προτίμηση WhatsApp)</label>
+            <input id="bkgPhone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+30 …" maxlength="40" required>
+            <p class="bkg-err" id="bkgErrPhone">Χρειαζόμαστε τηλέφωνο επικοινωνίας (τουλάχιστον 8 ψηφία).</p>
+          </div>
+          <div class="field">
+            <label for="bkgEmail">Email <span class="muted">(προαιρετικό)</span></label>
+            <input id="bkgEmail" type="email" autocomplete="email" placeholder="you@example.com" maxlength="160">
+          </div>
+          <div class="field field--full">
+            <label for="bkgNotes">Κάτι που πρέπει να ξέρουμε; <span class="muted">(αλλεργίες, περίσταση, τραπέζι)</span></label>
+            <textarea id="bkgNotes" rows="3" placeholder="Δείπνο γενεθλίων, δύο θέσεις μέσα…" maxlength="1500"></textarea>
+          </div>
+          <div class="field field--full">
+            <div class="bkg-privnotice">
+              <p><strong>Πώς χρησιμοποιούμε τα στοιχεία σας.</strong> Χρησιμοποιούμε το όνομα και τα στοιχεία επικοινωνίας σας για να κρατήσουμε το τραπέζι σας. Την επόμενη ημέρα από την επίσκεψή σας στέλνουμε ένα σύντομο μήνυμα για να μάθουμε πώς σας φάνηκε — μπορείτε να το σταματήσετε οποιαδήποτε στιγμή με ένα κλικ. Διατηρούμε τα στοιχεία σας για 12 μήνες και τα κοινοποιούμε μόνο στους παρόχους που μεταφέρουν τα μηνύματά μας. Αναλυτικά στην <a href="privacy.html">Πολιτική Απορρήτου</a>.</p>
+            </div>
+            <div class="check-row bkg-optin">
+              <input type="checkbox" id="bkgMarketing">
+              <label for="bkgMarketing">Θέλω να λαμβάνω περιστασιακά νέα από το Bell Kitchen — νέα πιάτα, εκδηλώσεις, αλλαγές ωραρίου. Μπορώ να διαγραφώ οποτεδήποτε. <span class="muted">(προαιρετικό)</span></label>
+            </div>
+            <div class="check-row bkg-optin">
+              <input type="checkbox" id="bkgWhatsapp">
+              <label for="bkgWhatsapp">Μπορείτε να επικοινωνείτε μαζί μου στο WhatsApp σε αυτόν τον αριθμό αντί για email. <span class="muted">(προαιρετικό)</span></label>
+            </div>
+            <p class="muted bkg-optin-foot">Κανένα από τα δύο πεδία δεν είναι απαραίτητο για την κράτηση.</p>
+          </div>
+        </div>
+        <input class="bkg-hp" id="bkgWeb" tabindex="-1" autocomplete="off" aria-hidden="true">
+      </section>
+
+      <!-- ΒΗΜΑ 5 · ΕΛΕΓΧΟΣ -->
+      <section class="bkg-step" id="bkgS5">
+        <button type="button" class="bkg-back" data-goto="4">← Πίσω</button>
+        <p class="bkg-q">Όλα σωστά;</p>
+        <p class="bkg-sub">Μπορείτε ακόμα να αλλάξετε οτιδήποτε.</p>
+        <div class="bkg-review" id="bkgReview"></div>
+      </section>
+
+      <!-- ΒΗΜΑ 6 · ΕΠΙΒΕΒΑΙΩΣΗ -->
+      <section class="bkg-step bkg-done" id="bkgS6">
+        <div class="bkg-mark">✓</div>
+        <h2>Το τραπέζι σας κρατήθηκε!</h2>
+        <p class="bkg-sub" id="bkgDoneSub"></p>
+        <p class="bkg-sub" id="bkgMailNote" style="margin-top:.6rem"></p>
+        <p class="bkg-kerasma">«Ένα κέρασμα με ψωμί, ελαιόλαδο και αλάτι από την οικογένειά μας θα σας περιμένει στο τραπέζι — όπως από το 1956.»</p>
+        <div class="bkg-acts">
+          <a class="btn btn--primary btn--large" id="bkgIcs" download="cookaki-reservation.ics" href="#">📅 Προσθήκη στο ημερολόγιο</a>
+          <a class="btn btn--whatsapp btn--small" href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer">💬 Μήνυμα στο WhatsApp</a>
+          <a class="btn btn--secondary btn--small" href="https://maps.google.com/?q=Cookaki+Petmeza+5+Koukaki+Athens" target="_blank" rel="noopener noreferrer">📍 Πώς θα μας βρείτε</a>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <div class="bkg-cta" id="bkgCta">
+        <button type="button" class="btn btn--primary btn--large" id="bkgBtn">Συνέχεια</button>
+        <p class="bkg-note" id="bkgNote">Δωρεάν · χωρίς προπληρωμή · δωρεάν ακύρωση έως 2 ώρες πριν</p>
+      </div>
+      <p class="form-status" id="bkgStatus" role="status" aria-live="polite"></p>
+
+    </div>
+
+    <div class="reservation-alt">
+      <h2>Ή επικοινωνήστε απευθείας</h2>
+      <ul class="contact-list">
+        <li><strong>WhatsApp</strong> <a href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer">+30 698 237 3505</a></li>
+        <li><strong>Τηλέφωνο</strong> <a href="tel:+302109219818">+30 21 0921 9818</a></li>
+        <li><strong>Email</strong> <a href="mailto:info@littlenoe.com">info@littlenoe.com</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container container--narrow">
+    <h2 class="section-title">Καλό να ξέρετε</h2>
+    <details class="faq"><summary>Δέχεστε χωρίς κράτηση;</summary><p>Ναι — κρατάμε πάντα λίγα τραπέζια ελεύθερα για επισκέπτες χωρίς κράτηση. Παρασκευή και Σάββατο βράδυ συνιστούμε ανεπιφύλακτα κράτηση εκ των προτέρων.</p></details>
+    <details class="faq"><summary>Μπορώ να παραγγείλω τα πιάτα μου από πριν;</summary><p>Ναι. Η ζεστή γωνιά αλλάζει καθημερινά — όταν διαλέξετε μέρα, βλέπετε ακριβώς τι μαγειρεύουμε και μπορείτε να κρατήσετε τα πιάτα σας ώστε να φυλαχτούν για το τραπέζι σας. Πληρώνετε στο εστιατόριο κανονικά.</p></details>
+    <details class="faq"><summary>Πόσο μεγάλη παρέα χωράτε;</summary><p>Έως 8 άτομα μέσω της φόρμας. Για 9 ή περισσότερους, στείλτε μας WhatsApp στο <a href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer">+30 698 237 3505</a> — θα κανονίσουμε τραπέζι και, αν θέλετε, ένα μικρό set menu.</p></details>
+    <details class="faq"><summary>Ζητάτε προκαταβολή;</summary><p>Χωρίς προκαταβολή για τραπέζια έως 8 άτομα. Για ιδιωτικές εκδηλώσεις ή ενοικίαση όλου του χώρου ενδέχεται να ζητήσουμε μικρή προκαταβολή, που αφαιρείται από τον λογαριασμό.</p></details>
+    <details class="faq"><summary>Για πόσο κρατιέται ένα τραπέζι;</summary><p>Κρατάμε τις κρατήσεις για 15 λεπτά μετά την ώρα της κράτησης. Αν καθυστερείτε, απλώς στείλτε μας μήνυμα.</p></details>
+    <details class="faq"><summary>Καλύπτετε αλλεργίες και διατροφικές ανάγκες;</summary><p>Ναι — χορτοφαγικές, vegan και χωρίς γλουτένη επιλογές επισημαίνονται καθαρά στο <a href="menu.html">μενού</a>. Σημειώστε τυχόν αλλεργίες στη φόρμα και θα ενημερώσουμε το τραπέζι σας.</p></details>
+    <details class="faq"><summary>Είναι προσβάσιμο το εστιατόριο;</summary><p>Η σάλα είναι στο επίπεδο του δρόμου. Για ειδικές ανάγκες προσβασιμότητας (αναπηρικό αμαξίδιο, κινητικότητα), στείλτε μας μήνυμα εκ των προτέρων ώστε να ετοιμάσουμε το καλύτερο τραπέζι για εσάς.</p></details>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-mark">
+          <img src="../assets/images/bell-kitchen-logo.png" alt="Bell Kitchen mark"  loading="lazy" decoding="async"/>
+          <h3>Bell Kitchen <em>· Cookaki</em></h3>
+        </div>
+        <p>Petméza 5, Koukáki, Athens 11742 · Greece</p>
+        <p class="mt-2"><em>Από τη γη. Στο τραπέζι. Στη μνήμη.<br>Έντιμες επιλογές. Πλουσιότερη ζωή.</em></p>
+      </div>
+      <div class="footer-col"><h4>Φαγητό &amp; Επίσκεψη</h4><ul><li><a href="menu.html">Μενού</a></li><li><a href="takeaway.html">Take Away</a></li><li><a href="reservations.html">Κρατήσεις</a></li><li><a href="about.html">Η Ιστορία μας</a></li><li><a href="manifesto.html">Μανιφέστο</a></li><li><a href="gallery.html">Φωτογραφίες</a></li><li><a href="press.html">Τύπος</a></li><li><a href="contact.html">Επίσκεψη &amp; Επικοινωνία</a></li><li><a href="greek-restaurant-near-acropolis.html">Κοντά στην Ακρόπολη</a></li><li><a href="where-to-eat-in-koukaki.html">Πού να Φάτε στο Κουκάκι</a></li><li><a href="vegetarian-greek-koukaki.html">Χορτοφαγικά Ελληνικά</a></li></ul></div>
+      <div class="footer-col"><h4>Μεγαλώστε &amp; Γιορτάστε</h4><ul><li><a href="ingredients.html">Τα Υλικά μας</a></li><li><a href="events.html">Ιδιωτικές Εκδηλώσεις</a></li><li><a href="events.html#inquire">Catering στον Χώρο σας</a></li><li><a href="products.html">Παντοπωλείο &amp; Προϊόντα</a></li></ul></div>
+      <div class="footer-col"><h4>Παραγγελία &amp; Ακολουθήστε</h4><ul><li><a href="https://noe.bfwqr.com/" target="_blank" rel="noopener noreferrer">Παραγγελία Online</a></li><li><a href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer">WhatsApp +30 698 237 3505</a></li><li><a href="https://www.instagram.com/cookaki_1956/" target="_blank" rel="noopener noreferrer">Instagram @cookaki_1956</a></li><li><a href="tel:+302109219818">+30 21 0921 9818</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© <span data-year>2026</span> Bell Kitchen · Cookaki · Λειτουργεί από την ομάδα Little Noe</span><span><a href="privacy.html">Απόρρητο</a> · <a href="terms.html">Όροι</a></span></div>
+  </div>
+</footer>
+
+<nav class="mobile-dock" aria-label="Quick actions">
+  <a href="https://noe.bfwqr.com/" class="primary" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h18l-2 12H5L3 7zM8 7V5a4 4 0 018 0v2"/></svg>Παραγγελία</a>
+  <a href="reservations.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg>Κράτηση</a>
+  <a href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 12a8 8 0 11-3-6L20 4l-1 4a8 8 0 011 4z"/></svg>WhatsApp</a>
+  <a href="https://maps.google.com/?q=Cookaki+Petmeza+5+Koukaki+Athens" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-8 8-13a8 8 0 10-16 0c0 5 8 13 8 13z"/><circle cx="12" cy="9" r="2.5"/></svg>Χάρτης</a>
+</nav>
+<aside class="desk-dock" aria-label="Quick contact">
+  <a href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 12a8 8 0 11-3-6L20 4l-1 4a8 8 0 011 4z"/></svg>Παραγγελία WhatsApp</a>
+  <a href="reservations.html" class="primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg>Κράτηση Τραπεζιού</a>
+</aside>
+
+<script src="../assets/js/main.js" defer></script>
+<script src="../assets/js/consent.js" defer></script>
+
+<!-- =========================================================================
+     Booking engine (Ελληνικά) — ίδιο backend Apps Script με την αγγλική σελίδα.
+     POST με αυτόματο GET fallback (Safari) και cid duplicate-guard.
+     ========================================================================= -->
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------- OWNER SETTINGS ---------------- */
+  var NOTICE_VERSION = "2026-08-26";
+  var API = "https://script.google.com/macros/s/AKfycbwlStypPRX6hhMt8EOII7KV32jzoBcRNi6mCNUpVMokj3P0oiztg2vJT_nVdMR0M1Vu8g/exec";
+  /* Staff availability switch \u2014 the /exec URL of staff/Code.gs.
+     Leave "" and the page behaves exactly as it did before the switch. */
+  var PAUSE_API = "https://script.google.com/macros/s/AKfycbwpX0emKO4RwlHRJP7C38k6F83vb6_QSlwgThhwCoFVQ9mD9Wk2gAwScdmi_PFfApVVNA/exec";
+  var PAUSE_TTL = 60000;          /* re-read the switch at most once a minute */
+  var DAYS_AHEAD = 7;
+  var SLOT_MIN = 30, CUTOFF_MIN = 45;
+  function services(dow) { // 0=Κυρ … 6=Σαβ (πραγματικό ωράριο)
+    return dow === 0
+      ? [{ name: "Όλη μέρα", start: "12:00", end: "16:15" }]
+      : [{ name: "Μεσημέρι", start: "12:00", end: "15:30" }, { name: "Βράδυ", start: "19:00", end: "21:15" }];
+  }
+  var WA_PHONE = "306982373505";
+  var LANG = "el";
+  var TXT = {
+    pausePartial: "<strong>\u039a\u03ac\u03c0\u03bf\u03b9\u03b5\u03c2 \u03ce\u03c1\u03b5\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c0\u03bb\u03ae\u03c1\u03b5\u03b9\u03c2.</strong> \u039f\u03b9 \u03b3\u03ba\u03c1\u03b9 \u03ce\u03c1\u03b5\u03c2 \u03b4\u03b5\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03b9\u03b1\u03b8\u03ad\u03c3\u03b9\u03bc\u03b5\u03c2 \u2014 \u03bf\u03b9 \u03c5\u03c0\u03cc\u03bb\u03bf\u03b9\u03c0\u03b5\u03c2 \u03c0\u03b1\u03c1\u03b1\u03bc\u03ad\u03bd\u03bf\u03c5\u03bd \u03b1\u03bd\u03bf\u03b9\u03c7\u03c4\u03ad\u03c2, \u03ae \u03c3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1.",
+    pauseService: function (closed, open) { return "<strong>\u03a4\u03bf " + closed.toLowerCase() + " \u03b5\u03af\u03bc\u03b1\u03c3\u03c4\u03b5 \u03c0\u03bb\u03ae\u03c1\u03b5\u03b9\u03c2.</strong> \u03a4\u03bf " + open.toLowerCase() + " \u03ad\u03c7\u03bf\u03c5\u03bc\u03b5 \u03c4\u03c1\u03b1\u03c0\u03ad\u03b6\u03b9 \u2014 \u03b4\u03b5\u03af\u03c4\u03b5 \u03c4\u03b9\u03c2 \u03ce\u03c1\u03b5\u03c2 \u03c0\u03b1\u03c1\u03b1\u03ba\u03ac\u03c4\u03c9, \u03ae \u03c3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1."; },
+    pauseServiceOnly: function (closed) { return "<strong>\u03a4\u03bf " + closed.toLowerCase() + " \u03b5\u03af\u03bc\u03b1\u03c3\u03c4\u03b5 \u03c0\u03bb\u03ae\u03c1\u03b5\u03b9\u03c2.</strong> \u03a3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1 \u03ba\u03b1\u03b9 \u03b8\u03b1 \u03b4\u03bf\u03cd\u03bc\u03b5 \u03c4\u03b9 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bc\u03b5 \u03bd\u03b1 \u03ba\u03ac\u03bd\u03bf\u03c5\u03bc\u03b5."; },
+    pauseDates: "<strong>\u039a\u03ac\u03c0\u03bf\u03b9\u03b5\u03c2 \u03b7\u03bc\u03ad\u03c1\u03b5\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ba\u03bb\u03b5\u03b9\u03c3\u03c4\u03ad\u03c2 \u03b3\u03b9\u03b1 online \u03ba\u03c1\u03b1\u03c4\u03ae\u03c3\u03b5\u03b9\u03c2.</strong> \u039f\u03b9 \u03b3\u03ba\u03c1\u03b9 \u03b7\u03bc\u03b5\u03c1\u03bf\u03bc\u03b7\u03bd\u03af\u03b5\u03c2 \u03b4\u03b5\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03b9\u03b1\u03b8\u03ad\u03c3\u03b9\u03bc\u03b5\u03c2 \u2014 \u03c3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1 \u03ba\u03b1\u03b9 \u03b8\u03b1 \u03b4\u03bf\u03cd\u03bc\u03b5 \u03c4\u03b9 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bc\u03b5 \u03bd\u03b1 \u03ba\u03ac\u03bd\u03bf\u03c5\u03bc\u03b5.",
+    pauseDay: "<strong>\u039f\u03b9 online \u03ba\u03c1\u03b1\u03c4\u03ae\u03c3\u03b5\u03b9\u03c2 \u03b3\u03b9\u03b1 \u03b1\u03c5\u03c4\u03ae \u03c4\u03b7\u03bd \u03b7\u03bc\u03ad\u03c1\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ba\u03bb\u03b5\u03b9\u03c3\u03c4\u03ad\u03c2.</strong> \u03a3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1 \u03ba\u03b1\u03b9 \u03b8\u03b1 \u03b4\u03bf\u03cd\u03bc\u03b5 \u03c4\u03b9 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bc\u03b5 \u03bd\u03b1 \u03ba\u03ac\u03bd\u03bf\u03c5\u03bc\u03b5.",
+    pauseUntil: function (t) { return "<strong>\u0395\u03af\u03bc\u03b1\u03c3\u03c4\u03b5 \u03c0\u03bb\u03ae\u03c1\u03b5\u03b9\u03c2 \u03bc\u03ad\u03c7\u03c1\u03b9 \u03c4\u03b9\u03c2 " + t + ".</strong> \u039f\u03b9 \u03b3\u03ba\u03c1\u03b9 \u03ce\u03c1\u03b5\u03c2 \u03b4\u03b5\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03b9\u03b1\u03b8\u03ad\u03c3\u03b9\u03bc\u03b5\u03c2 \u2014 \u03bf\u03b9 \u03b5\u03c0\u03cc\u03bc\u03b5\u03bd\u03b5\u03c2 \u03ce\u03c1\u03b5\u03c2 \u03c0\u03b1\u03c1\u03b1\u03bc\u03ad\u03bd\u03bf\u03c5\u03bd \u03b1\u03bd\u03bf\u03b9\u03c7\u03c4\u03ad\u03c2, \u03ae \u03c3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1."; },
+    pauseWa: function (d) { return "\u0393\u03b5\u03b9\u03b1 \u03c3\u03b1\u03c2! \u0388\u03c7\u03b5\u03c4\u03b5 \u03c4\u03c1\u03b1\u03c0\u03ad\u03b6\u03b9" + (d ? " " + d : "") + "; \u0397 \u03c3\u03b5\u03bb\u03af\u03b4\u03b1 \u03b4\u03b5\u03af\u03c7\u03bd\u03b5\u03b9 \u03b1\u03c5\u03c4\u03ad\u03c2 \u03c4\u03b9\u03c2 \u03ce\u03c1\u03b5\u03c2 \u03bc\u03b7 \u03b4\u03b9\u03b1\u03b8\u03ad\u03c3\u03b9\u03bc\u03b5\u03c2."; },
+    pauseWaBtn: "\u03a3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 WhatsApp",
+    pauseGone: "\u03a3\u03c5\u03b3\u03b3\u03bd\u03ce\u03bc\u03b7 \u2014 \u03b1\u03c5\u03c4\u03ae \u03b7 \u03ce\u03c1\u03b1 \u03bc\u03cc\u03bb\u03b9\u03c2 \u03ad\u03ba\u03bb\u03b5\u03b9\u03c3\u03b5. \u0394\u03b9\u03b1\u03bb\u03ad\u03be\u03c4\u03b5 \u03bc\u03b9\u03b1 \u03ac\u03bb\u03bb\u03b7.",
+    continue_: "Συνέχεια", confirm: "Επιβεβαίωση κράτησης", sending: "Γίνεται κράτηση…",
+    note: "Δωρεάν · χωρίς προπληρωμή · δωρεάν ακύρωση έως 2 ώρες πριν",
+    today: "Σήμερα", tmrw: "Αύριο",
+    menuFor: "Μαγειρεύουμε ", menuEmpty: "Το μενού της ημέρας δεν έχει αναρτηθεί ακόμα — θα διαλέξετε στο τραπέζι.",
+    rParty: "Άτομα", rDate: "Ημέρα", rTime: "Ώρα", rPlates: "Πιάτα",
+    rNone: "θα διαλέξω στο τραπέζι", rName: "Όνομα", rPhone: "Τηλέφωνο", edit: "αλλαγή",
+    timeSub: " · Ώρα Ελλάδας. Τελευταίο τραπέζι στις 21:15 (16:15 τις Κυριακές).",
+    done: function (p, d, h, n) { return "Κρατήσαμε το τραπέζι σας για " + p + " άτομα " + d + " στις " + h + "."; },
+    errNet: "Κάτι πήγε στραβά — δοκιμάστε ξανά ή στείλτε μας WhatsApp στο +30 698 237 3505.",
+    cats: { hot: "Διαλέξτε το Main Act σας", sea: "Από τις ελληνικές θάλασσες", cold: "Ολοκληρώστε το ταξίδι σας", sweet: "Κάτι γλυκό" },
+    mailNote: function (a) { return "Στείλαμε αντίγραφο στο <strong>" + a + "</strong>. Δεν ήρθε σε λίγα λεπτά; Ρίξτε μια ματιά στα ανεπιθύμητα — το τραπέζι σας είναι ούτως ή άλλως κρατημένο."; },
+    groupWa: function (d) { return "Γεια σας! Είμαστε παρέα 9+ ατόμων και θα θέλαμε ένα τραπέζι" + (d ? " " + d : "") + ". Μπορείτε να μας βοηθήσετε;"; }
+  };
+  /* ------------------------------------------------ */
+
+  var $ = function (id) { return document.getElementById(id); };
+  var S = { step: 0, party: null, date: null, time: null, plates: {}, name: "", phone: "", email: "", notes: "", marketing: false };
+  var MENU = {};
+  var STEPS = 7;
+
+  function locale() { return "el-GR"; }
+  var ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+  function isIsoDate(s) {
+    if (typeof s !== "string" || !ISO_DATE.test(s)) return false;
+    var d = new Date(s + "T00:00:00Z");
+    return !isNaN(d.getTime()) && d.toISOString().slice(0, 10) === s;
+  }
+  function longDate(iso) {
+    if (!isIsoDate(iso)) return typeof iso === "string" ? iso : "";
+    return new Intl.DateTimeFormat(locale(), { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" })
+      .format(new Date(iso + "T00:00:00Z"));
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function toMin(t) { var p = t.split(":"); return +p[0] * 60 + +p[1]; }
+  function toHHMM(m) { return String(Math.floor(m / 60)).padStart(2, "0") + ":" + String(m % 60).padStart(2, "0"); }
+  function athensNow() {
+    var parts = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Athens", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(new Date());
+    var g = function (t) { return parts.find(function (p) { return p.type === t; }).value; };
+    return { dateStr: g("year") + "-" + g("month") + "-" + g("day"), minutes: (parseInt(g("hour"), 10) % 24) * 60 + parseInt(g("minute"), 10) };
+  }
+  function addDays(iso, n) { var d = new Date(iso + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); }
+  function dow(iso) { return new Date(iso + "T00:00:00Z").getUTCDay(); }
+  var NOW = athensNow();
+
+  /* ---------------- availability switch (staff pause) ----------------
+     Read-only public GET on the staff Apps Script (staff/Code.gs), driven
+     from staff/pause.html. Two things can close a seating:
+       untilDate/untilMin  every seating that starts before that instant
+       days[]              whole dates closed to online booking
+       windows[]           part of one date: {d, a, b} in minutes, both ends
+                           inclusive, so a closed lunch takes 15:30 with it
+     It FAILS OPEN on purpose: if the switch cannot be reached, booking
+     behaves exactly as it did before it existed.                        */
+  var PAUSE = { untilDate: "", untilMin: 0, days: [], windows: [], fetched: 0 };
+  var PAUSE_MSG = "";   /* survives the async rebuild that go(2) triggers */
+
+  function pauseFetch() {
+    if (!PAUSE_API) return Promise.resolve(PAUSE);
+    if (PAUSE.fetched && Date.now() - PAUSE.fetched < PAUSE_TTL) return Promise.resolve(PAUSE);
+    var opts = {}, ctl = null;
+    if (typeof AbortController === "function") {
+      ctl = new AbortController(); opts.signal = ctl.signal;
+      setTimeout(function () { try { ctl.abort(); } catch (e) {} }, 4000);
+    }
+    return fetch(PAUSE_API + "?action=pause&t=" + Date.now(), opts)
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (j && j.ok === true) {
+          PAUSE.untilDate = j.untilDate || "";
+          PAUSE.untilMin = parseInt(j.untilMin, 10) || 0;
+          PAUSE.days = j.days || [];
+          PAUSE.windows = (j.windows || []).filter(function (w) {
+            return w && w.d && isFinite(w.a) && isFinite(w.b);
+          });
+          PAUSE.fetched = Date.now();
+        }
+        return PAUSE;
+      })
+      .catch(function () { return PAUSE; });
+  }
+
+  function dayPaused(iso) { return PAUSE.days.indexOf(iso) > -1; }
+  function windowPaused(iso, min) {
+    for (var i = 0; i < PAUSE.windows.length; i++) {
+      var w = PAUSE.windows[i];
+      if (w.d === iso && min >= w.a && min <= w.b) return true;
+    }
+    return false;
+  }
+  function slotPaused(iso, min) {
+    if (!iso) return false;
+    if (dayPaused(iso)) return true;
+    if (windowPaused(iso, min)) return true;
+    if (!PAUSE.untilDate) return false;
+    if (iso < PAUSE.untilDate) return true;            /* window runs past this day */
+    return iso === PAUSE.untilDate && min < PAUSE.untilMin;
+  }
+  /* every seating step 2 would offer for a date, in minutes */
+  function slotsFor(iso) {
+    var out = [];
+    services(dow(iso)).forEach(function (svc) {
+      var e = toMin(svc.end);
+      for (var m = toMin(svc.start); m <= e; m += SLOT_MIN) out.push(m);
+      if (out[out.length - 1] !== e) out.push(e);
+    });
+    return out;
+  }
+  function tooSoon(iso, m) { return iso === NOW.dateStr && m < NOW.minutes + CUTOFF_MIN; }
+  function openSlots(iso) {
+    return slotsFor(iso).filter(function (m) {
+      return !tooSoon(iso, m) && !slotPaused(iso, m);
+    }).length;
+  }
+  /* true when the switch \u2014 not simply the passing of time \u2014 emptied a date */
+  function pauseEmptied(iso) {
+    if (openSlots(iso) !== 0) return false;
+    return slotsFor(iso).filter(function (m) {
+      return !tooSoon(iso, m) && slotPaused(iso, m);
+    }).length > 0 || dayPaused(iso);
+  }
+  /* A service counts as closed when the switch took every seating in it.
+     Seatings already past (today's cutoff) are ignored, so "lunch is full"
+     is not announced at 20:00 to someone looking at tonight.               */
+  function serviceStatus(iso) {
+    var out = [];
+    services(dow(iso)).forEach(function (svc) {
+      var e = toMin(svc.end), live = [], shut = 0;
+      for (var m = toMin(svc.start); m <= e; m += SLOT_MIN) live.push(m);
+      if (live[live.length - 1] !== e) live.push(e);
+      live = live.filter(function (m) { return !tooSoon(iso, m); });
+      live.forEach(function (m) { if (slotPaused(iso, m)) shut++; });
+      if (!live.length) return;                        /* service already over */
+      out.push({ name: svc.name, closed: shut === live.length, open: live.length - shut });
+    });
+    return out;
+  }
+
+  function pauseWaHref(iso) {
+    return "https://wa.me/" + WA_PHONE + "?text=" +
+      encodeURIComponent(TXT.pauseWa(iso ? longDate(iso) : ""));
+  }
+  function pauseWaBtn(iso) {
+    return '<br><a class="btn btn--whatsapp btn--small" href="' + pauseWaHref(iso) +
+           '" target="_blank" rel="noopener noreferrer">' + TXT.pauseWaBtn + "</a>";
+  }
+
+  /* ---------------- πλοήγηση ---------------- */
+  var prog = $("bkgProgress");
+  for (var i = 0; i < STEPS; i++) { var b = document.createElement("i"); prog.appendChild(b); }
+  function go(n) {
+    S.step = n;
+    for (var i = 0; i < STEPS; i++) {
+      $("bkgS" + i).classList.toggle("on", i === n);
+      prog.children[i].classList.toggle("on", i <= n);
+    }
+    if (n === 1) pauseFetch().then(function () { buildDates(); });
+    if (n === 2) pauseFetch().then(function () { buildSlots(); });
+    if (n === 3) buildMenu();
+    if (n === 5) buildReview();
+    refreshCta();
+    var card = document.querySelector(".form-card");
+    if (card && card.getBoundingClientRect().top < 0) card.scrollIntoView({ behavior: "smooth" });
+  }
+  function next() { go(Math.min(S.step + 1, STEPS - 1)); }
+  document.querySelectorAll(".bkg-back").forEach(function (b) {
+    b.addEventListener("click", function () { go(parseInt(b.getAttribute("data-goto"), 10)); });
+  });
+
+  var btn = $("bkgBtn"), note = $("bkgNote"), cta = $("bkgCta");
+  function refreshCta() {
+    cta.hidden = false; note.textContent = TXT.note;
+    switch (S.step) {
+      case 0: case 1: case 2: cta.hidden = true; break;   // auto-advance
+      case 3: case 4: btn.textContent = TXT.continue_; btn.disabled = false; break;
+      case 5: btn.textContent = TXT.confirm; btn.disabled = false; break;
+      case 6: cta.hidden = true; break;
+    }
+  }
+  btn.addEventListener("click", function () {
+    if (S.step === 4) { if (!validate()) return; }
+    if (S.step === 5) { submit(); return; }
+    next();
+  });
+
+  /* ---------------- βήμα 0: άτομα ---------------- */
+  var partyGrid = $("bkgParty");
+  for (var p = 1; p <= 9; p++) {
+    (function (val) {
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "bkg-opt";
+      b.textContent = val === 9 ? "9+" : String(val);
+      b.addEventListener("click", function () {
+        S.party = val === 9 ? "9+" : String(val);
+        Array.prototype.forEach.call(partyGrid.children, function (c) { c.classList.remove("sel"); });
+        b.classList.add("sel");
+        var big = S.party === "9+";
+        $("bkgGroupNote").hidden = !big;
+        if (big) {
+          $("bkgGroupWa").href = "https://wa.me/" + WA_PHONE + "?text=" + encodeURIComponent(TXT.groupWa(S.date ? longDate(S.date) : ""));
+        } else { setTimeout(next, 200); }
+      });
+      partyGrid.appendChild(b);
+    })(p);
+  }
+
+  /* ---------------- βήμα 1: ημέρες ---------------- */
+  var dateGrid = $("bkgDates");
+  function buildDates() {
+    NOW = athensNow();
+    dateGrid.innerHTML = "";
+    var blockedDates = 0;
+    for (var i = 0; i < DAYS_AHEAD; i++) {
+      (function (iso, idx) {
+        var d = new Date(iso + "T00:00:00Z");
+        var b = document.createElement("button");
+        b.type = "button"; b.className = "bkg-opt" + (S.date === iso ? " sel" : "");
+        var wd = idx === 0 ? TXT.today : idx === 1 ? TXT.tmrw :
+          new Intl.DateTimeFormat(locale(), { weekday: "short", timeZone: "UTC" }).format(d);
+        var mo = new Intl.DateTimeFormat(locale(), { month: "short", timeZone: "UTC" }).format(d);
+        b.innerHTML = "<small>" + esc(wd) + "</small><b>" + d.getUTCDate() + "</b><small>" + esc(mo) + "</small>";
+        if (openSlots(iso) === 0) { b.disabled = true; if (pauseEmptied(iso)) blockedDates++; }
+        b.addEventListener("click", function () {
+          S.date = iso; S.time = null; S.plates = {};
+          buildDates(); buildSlots(); setTimeout(next, 200);
+        });
+        dateGrid.appendChild(b);
+      })(addDays(NOW.dateStr, i), i);
+    }
+    var dn = $("bkgDateNote");
+    if (dn) {
+      dn.innerHTML = blockedDates ? TXT.pauseDates + pauseWaBtn("") : "";
+      dn.hidden = !blockedDates;
+    }
+  }
+
+  /* ---------------- βήμα 2: ώρες ---------------- */
+  function buildSlots() {
+    NOW = athensNow();
+    var wrap = $("bkgSlots"); wrap.innerHTML = "";
+    if (!S.date) return;
+    var isToday = S.date === NOW.dateStr;
+    services(dow(S.date)).forEach(function (svc) {
+      var h = document.createElement("p"); h.className = "bkg-svc"; h.textContent = svc.name; wrap.appendChild(h);
+      var g = document.createElement("div"); g.className = "bkg-grid";
+      var svcEnd = toMin(svc.end), svcTimes = [];
+      for (var sm = toMin(svc.start); sm <= svcEnd; sm += SLOT_MIN) svcTimes.push(sm);
+      if (svcTimes[svcTimes.length - 1] !== svcEnd) svcTimes.push(svcEnd); // keep the exact last seating (e.g. 21:15)
+      svcTimes.forEach(function (m) {
+        (function (t, past) {
+          var b = document.createElement("button");
+          b.type = "button"; b.className = "bkg-opt" + (S.time === t ? " sel" : "");
+          b.textContent = t; b.disabled = past;
+          b.addEventListener("click", function () { PAUSE_MSG = ""; S.time = t; buildSlots(); setTimeout(next, 200); });
+          g.appendChild(b);
+        })(toHHMM(m), (isToday && m < NOW.minutes + CUTOFF_MIN) || slotPaused(S.date, m));
+      });
+      wrap.appendChild(g);
+    });
+    $("bkgTimeSub").textContent = longDate(S.date) + TXT.timeSub;
+
+    var et = $("bkgErrTime");
+    if (et) {
+      if (PAUSE_MSG) { et.textContent = PAUSE_MSG; et.style.display = "block"; }
+      else { et.style.display = "none"; }
+    }
+    var pn = $("bkgPauseNote");
+    if (pn) {
+      var paused = slotsFor(S.date).filter(function (m) { return slotPaused(S.date, m); }).length;
+      if (!paused) {
+        pn.hidden = true; pn.innerHTML = "";
+      } else if (dayPaused(S.date) || openSlots(S.date) === 0) {
+        pn.hidden = false; pn.innerHTML = TXT.pauseDay + pauseWaBtn(S.date);
+      } else {
+        var sv = serviceStatus(S.date);
+        var shut = sv.filter(function (x) { return x.closed; });
+        var free = sv.filter(function (x) { return !x.closed && x.open; });
+        pn.hidden = false;
+        if (shut.length && free.length) {
+          pn.innerHTML = TXT.pauseService(shut[0].name, free[0].name) + pauseWaBtn(S.date);
+        } else if (shut.length) {
+          pn.innerHTML = TXT.pauseServiceOnly(shut[0].name) + pauseWaBtn(S.date);
+        } else {
+          /* Only say "until HH:MM" when the rolling pause is what closed these
+             seatings. A window can close the END of a day, where "until" lies. */
+          var rolling = S.date === PAUSE.untilDate && PAUSE.untilMin > 0;
+          pn.innerHTML = (rolling ? TXT.pauseUntil(toHHMM(PAUSE.untilMin)) : TXT.pausePartial) +
+                         pauseWaBtn(S.date);
+        }
+      }
+    }
+  }
+
+  /* ---------------- βήμα 3: μενού ημέρας ---------------- */
+  function fetchMenu(iso) {
+    if (MENU[iso] !== undefined) return Promise.resolve(MENU[iso]);
+    return fetch(API + "?action=menu&date=" + iso)
+      .then(function (r) { return r.json(); })
+      .then(function (j) { MENU[iso] = (j.ok && j.plates && j.plates.length) ? j.plates : null; return MENU[iso]; })
+      .catch(function () { MENU[iso] = null; return null; });
+  }
+  function buildMenu() {
+    $("bkgMenuTitle").textContent = TXT.menuFor + longDate(S.date);
+    var list = $("bkgMenu");
+    list.innerHTML = '<p class="bkg-sub">…</p>';
+    fetchMenu(S.date).then(function (plates) {
+      list.innerHTML = "";
+      if (!plates) { list.innerHTML = '<p class="bkg-sub">' + TXT.menuEmpty + "</p>"; return; }
+      ["hot", "sea", "cold", "sweet"].forEach(function (cat) {
+        var items = plates.filter(function (p) { return p.cat === cat; });
+        if (!items.length) return;
+        var h = document.createElement("p"); h.className = "bkg-svc"; h.textContent = TXT.cats[cat] || cat; list.appendChild(h);
+        items.forEach(function (p) {
+          var q = S.plates[p.id] || 0;
+          var row = document.createElement("div"); row.className = "bkg-plate" + (q > 0 ? " sel" : "");
+          row.innerHTML = '<div class="tx"><div class="nm">' + esc(p.el) + '</div><div class="ds">' + esc(p.del || "") + "</div></div>" +
+            '<div class="pr">€' + Number(p.pr).toFixed(2).replace(".00", "") + "</div>" +
+            '<div class="bkg-qty"><button type="button" aria-label="λιγότερα">−</button><b>' + (q || "") + '</b><button type="button" aria-label="περισσότερα">+</button></div>';
+          var bs = row.querySelectorAll(".bkg-qty button");
+          bs[0].addEventListener("click", function () { if (S.plates[p.id]) { S.plates[p.id]--; if (!S.plates[p.id]) delete S.plates[p.id]; buildMenu(); } });
+          bs[1].addEventListener("click", function () { S.plates[p.id] = (S.plates[p.id] || 0) + 1; buildMenu(); });
+          list.appendChild(row);
+        });
+      });
+    });
+  }
+  $("bkgSkip").addEventListener("click", function () { next(); });
+
+  /* ---------------- βήμα 4: έλεγχος στοιχείων ---------------- */
+  function validate() {
+    var ok = true;
+    S.name = $("bkgName").value.trim();
+    S.phone = $("bkgPhone").value.trim();
+    S.email = $("bkgEmail").value.trim();
+    S.notes = $("bkgNotes").value.trim();
+    S.marketing = $("bkgMarketing").checked;
+    S.waChannel = $("bkgWhatsapp").checked;
+    $("bkgErrName").style.display = S.name ? "none" : "block"; if (!S.name) ok = false;
+    var phoneOk = S.phone.replace(/\D/g, "").length >= 8;
+    $("bkgErrPhone").style.display = phoneOk ? "none" : "block"; if (!phoneOk) ok = false;
+    return ok;
+  }
+
+  /* ---------------- βήμα 5: σύνοψη ---------------- */
+  function plateSummary() {
+    var plates = MENU[S.date] || [];
+    return Object.keys(S.plates).map(function (id) {
+      var p = plates.find(function (x) { return x.id === id; });
+      return p ? S.plates[id] + "× " + p.el : null;
+    }).filter(Boolean);
+  }
+  function buildReview() {
+    var rows = [
+      [TXT.rParty, S.party, 0], [TXT.rDate, longDate(S.date), 1], [TXT.rTime, S.time, 2],
+      [TXT.rPlates, plateSummary().join(", ") || TXT.rNone, 3],
+      [TXT.rName, S.name, 4], [TXT.rPhone, S.phone, 4]
+    ];
+    $("bkgReview").innerHTML = rows.map(function (r) {
+      return '<div class="bkg-row"><span>' + esc(r[0]) + "</span><b>" + esc(r[1]) +
+        ' <button type="button" class="bkg-edit" data-goto="' + r[2] + '">' + TXT.edit + "</button></b></div>";
+    }).join("");
+    document.querySelectorAll("#bkgReview .bkg-edit").forEach(function (b) {
+      b.addEventListener("click", function () { go(parseInt(b.getAttribute("data-goto"), 10)); });
+    });
+  }
+
+  /* ---------------- υποβολή (POST → GET fallback, cid dedupe) ---------------- */
+  function submit() {
+    if ($("bkgWeb").value) return; // honeypot
+    if (!isIsoDate(S.date) || !/^([01]\d|2[0-3]):[0-5]\d$/.test(S.time || "") || !S.party) {
+      $("bkgStatus").textContent = TXT.errNet;
+      go(1); return;
+    }
+    btn.disabled = true; btn.innerHTML = '<span class="bkg-spin"></span>' + TXT.sending;
+    /* Staff may have closed this seating while the guest was typing. */
+    if (PAUSE_API) {
+      PAUSE.fetched = 0;
+      pauseFetch().then(function () {
+        if (!slotPaused(S.date, toMin(S.time))) { sendBooking(); return; }
+        PAUSE_MSG = TXT.pauseGone;
+        S.time = null; buildDates(); buildSlots(); go(2);
+        btn.disabled = false; refreshCta();
+      });
+      return;
+    }
+    sendBooking();
+  }
+
+  function sendBooking() {
+    var extraNotes = S.notes +
+      (S.email ? (S.notes ? " · " : "") + "Email: " + S.email : "") +
+      (S.marketing ? " · Newsletter: YES" : "") +
+      (S.waChannel ? " · WhatsApp channel: YES" : "") +
+      " · [consent " + NOTICE_VERSION + " news:" + (S.marketing ? "Y" : "N") + " wa:" + (S.waChannel ? "Y" : "N") + "]";
+    var payload = {
+      action: "reserve", name: S.name, phone: S.phone, notes: extraNotes,
+      date: S.date, time: S.time, party: S.party, lang: LANG,
+      email: S.email, marketing: S.marketing ? "yes" : "",
+      whatsapp_channel: S.waChannel ? "yes" : "",
+      notice_version: NOTICE_VERSION, consent_ts: new Date().toISOString(),
+      dateLong: longDate(S.date),
+      plates: plateSummary().join("; "), source: "site-" + LANG,
+      cid: Date.now().toString(36) + Math.random().toString(36).slice(2, 8)
+    };
+    var done = function (ok, detail) {
+      if (!ok) {
+        $("bkgStatus").textContent = TXT.errNet + (detail ? " [" + detail + "]" : "");
+        btn.disabled = false; refreshCta(); return;
+      }
+      $("bkgStatus").textContent = "";
+      $("bkgDoneSub").textContent = TXT.done(S.party, longDate(S.date), S.time, S.name.split(" ")[0]);
+      var mn = $("bkgMailNote");
+      if (mn) mn.innerHTML = S.email ? TXT.mailNote(esc(S.email)) : "";
+      /* GTM: reservation conversion. cid is the dedupe key. */
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'reservation_complete',
+        reservation_id: payload.cid,
+        reservation_party: S.party,
+        reservation_date: S.date,
+        reservation_time: S.time,
+        reservation_language: LANG
+      });
+      buildIcs();
+      go(6);
+    };
+    fetch(API, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
+      .then(function (r) { return r.text(); })
+      .then(function (raw) {
+        var j = JSON.parse(raw);
+        if (j.ok === true) { done(true); } else { throw new Error(j.error || "post failed"); }
+      })
+      .catch(function (e1) {
+        var qs = new URLSearchParams(payload).toString();
+        fetch(API + "?" + qs)
+          .then(function (r) { return r.json(); })
+          .then(function (j2) { done(j2.ok === true && !!j2.ref, j2.ok ? "" : (j2.error || "")); })
+          .catch(function (e2) { done(false, String(e2).slice(0, 120)); });
+      });
+  }
+
+  /* ---------------- .ics ---------------- */
+  function buildIcs() {
+    var dt = S.date.replace(/-/g, "") + "T" + S.time.replace(":", "") + "00";
+    var endMin = Math.min(toMin(S.time) + 90, 1439);
+    var dtEnd = S.date.replace(/-/g, "") + "T" + toHHMM(endMin).replace(":", "") + "00";
+    var stamp = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
+    var ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Cookaki Bell Kitchen//Reservations//EL",
+      "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "BEGIN:VEVENT",
+      "UID:" + stamp + "-" + Math.random().toString(36).slice(2) + "@bellacropolis.gr",
+      "DTSTAMP:" + stamp,
+      "DTSTART;TZID=Europe/Athens:" + dt, "DTEND;TZID=Europe/Athens:" + dtEnd,
+      "SUMMARY:Τραπέζι στο Cookaki | Bell Kitchen (" + S.party + " άτομα)",
+      "LOCATION:Cookaki | Bell Kitchen\\, Πετμεζά 5\\, Κουκάκι\\, Αθήνα 11742",
+      "DESCRIPTION:WhatsApp +30 698 237 3505. Το τραπέζι κρατιέται 15 λεπτά μετά την ώρα της κράτησης.",
+      "STATUS:CONFIRMED", "END:VEVENT", "END:VCALENDAR"].join("\r\n");
+    $("bkgIcs").href = "data:text/calendar;charset=utf-8," + encodeURIComponent(ics);
+  }
+
+  /* ---------------- εκκίνηση ---------------- */
+  buildDates();
+  refreshCta();
+  pauseFetch().then(function () { buildDates(); if (S.date) buildSlots(); });
+})();
+</script>
+</body>
+</html>
