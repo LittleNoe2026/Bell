@@ -1,0 +1,918 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://maps.google.com https://maps.gstatic.com https://www.google.com https://*.google-analytics.com https://*.analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://googleads.g.doubleclick.net https://www.googleadservices.com https://www.google.gr https://*.doubleclick.net https://www.google.de https://www.google.fr https://www.google.es https://www.google.it https://www.google.co.uk https://www.google.com.hk; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net; frame-src https://maps.google.com https://www.google.com https://www.googletagmanager.com https://td.doubleclick.net https://bid.g.doubleclick.net https://*.doubleclick.net; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://*.google-analytics.com https://*.analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.gr https://*.doubleclick.net https://www.google.de https://www.google.fr https://www.google.es https://www.google.it https://www.google.co.uk https://www.google.com.hk; form-action 'self' https://wa.me; base-uri 'self'; object-src 'none'" />
+<!-- Google Consent Mode v2 — analytics & ads denied until the visitor opts in -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent','default',{
+    ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied',
+    analytics_storage:'denied', functionality_storage:'denied',
+    personalization_storage:'denied', security_storage:'granted', wait_for_update:500
+  });
+  (function(){
+    try {
+      var d = JSON.parse(localStorage.getItem('cookaki_consent'));
+      if (d && d.version===1 && (Date.now()-(d.ts||0) < 31536000000) && d.categories){
+        var c = d.categories;
+        gtag('consent','update',{
+          analytics_storage:c.analytics?'granted':'denied',
+          ad_storage:c.marketing?'granted':'denied',
+          ad_user_data:c.marketing?'granted':'denied',
+          ad_personalization:c.marketing?'granted':'denied',
+          functionality_storage:c.preferences?'granted':'denied',
+          personalization_storage:c.preferences?'granted':'denied'
+        });
+        gtag('set','ads_data_redaction', !c.marketing);
+      } else { gtag('set','ads_data_redaction', true); }
+    } catch(e){ gtag('set','ads_data_redaction', true); }
+  })();
+  gtag('set','url_passthrough', true);
+  dataLayer.push({ page_language: (document.documentElement.lang || 'en').toLowerCase() });
+  gtag('js', new Date());
+</script>
+<link rel="stylesheet" href="assets/css/consent.css" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K6C53VGR');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#FCFAF6" />
+
+<title>Reservations — Cookaki | Bell Kitchen, Koukaki Athens</title>
+<meta name="description" content="Book a table at Cookaki in Koukáki, Athens — five minutes from the Acropolis Museum. See what's cooking each day and reserve your plates before they sell out." />
+<link rel="canonical" href="https://www.bellacropolis.gr/reservations.html" />
+<link rel="alternate" hreflang="en" href="https://www.bellacropolis.gr/reservations.html" />
+<link rel="alternate" hreflang="el" href="https://www.bellacropolis.gr/el/reservations.html" />
+<link rel="alternate" hreflang="de" href="https://www.bellacropolis.gr/de/reservations.html" />
+<link rel="alternate" hreflang="fr" href="https://www.bellacropolis.gr/fr/reservations.html" />
+<link rel="alternate" hreflang="es" href="https://www.bellacropolis.gr/es/reservations.html" />
+<link rel="alternate" hreflang="zh" href="https://www.bellacropolis.gr/zh/reservations.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.bellacropolis.gr/reservations.html" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Reservations — Cookaki" />
+<meta property="og:url" content="https://www.bellacropolis.gr/reservations.html" />
+<meta property="og:description" content="Reserve a table at Cookaki, beneath the Acropolis — and reserve today's plates before they sell out." />
+<meta property="og:image" content="https://www.bellacropolis.gr/assets/images/bell-kitchen-plaque.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" /></noscript>
+<link rel="icon" type="image/png" href="assets/images/bell-kitchen-logo.png" />
+<link rel="stylesheet" href="assets/css/main.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ReserveAction",
+  "name": "Reserve a table at Cookaki",
+  "target": "https://www.bellacropolis.gr/reservations.html",
+  "object": { "@id": "https://www.bellacropolis.gr/#restaurant" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Do you accept walk-ins?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — we always keep a few tables for walk-ins. On weekend nights we strongly recommend reserving in advance." } },
+    { "@type": "Question", "name": "What is the maximum group size?", "acceptedAnswer": { "@type": "Answer", "text": "For groups of 9 or more please WhatsApp us directly at +30 698 237 3505 so we can plan seating and a set menu." } },
+    { "@type": "Question", "name": "Do you require a deposit?", "acceptedAnswer": { "@type": "Answer", "text": "No deposit for tables up to 8. For private events and large groups we may ask for a small deposit." } },
+    { "@type": "Question", "name": "Can I order my dishes in advance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — when you book you can see the day's home-cooked plates and reserve them for your table. You pay at the restaurant." } }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.bellacropolis.gr/" },
+    { "@type": "ListItem", "position": 2, "name": "Reservations", "item": "https://www.bellacropolis.gr/reservations.html" }
+  ]
+}
+</script>
+<!-- MOD: connect-src now allows the Apps Script booking backend
+     (script.google.com answers with a redirect to script.googleusercontent.com,
+     so BOTH hosts are required or fetch() dies mid-flight). -->
+
+<!-- MOD: booking-wizard styles — scoped under .bkg- so nothing collides with main.css -->
+<style>
+.bkg-progress{display:flex;gap:6px;margin-bottom:var(--sp-3)}
+.bkg-progress i{flex:1;height:3px;border-radius:2px;background:var(--beige);transition:background var(--t-base) var(--ease)}
+.bkg-progress i.on{background:var(--saffron)}
+.bkg-step{display:none}
+.bkg-step.on{display:block;animation:bkgFade var(--t-base) var(--ease)}
+@keyframes bkgFade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.bkg-q{font-family:var(--font-display);font-size:var(--fs-lg);font-weight:600;color:var(--olive);margin-bottom:.25rem}
+.bkg-sub{color:var(--ink-muted);font-size:var(--fs-sm);margin-bottom:var(--sp-3)}
+.bkg-back{background:none;border:none;color:var(--ink-muted);font-size:var(--fs-sm);cursor:pointer;padding:0;margin-bottom:var(--sp-2);display:inline-flex;align-items:center;gap:.35rem}
+.bkg-back:hover{color:var(--olive)}
+.bkg-grid{display:grid;gap:10px;grid-template-columns:repeat(4,1fr)}
+@media(max-width:480px){.bkg-grid{grid-template-columns:repeat(3,1fr)}}
+.bkg-opt{border:1.5px solid var(--line-strong);border-radius:var(--radius);background:#fff;padding:.9rem .4rem;text-align:center;font-family:var(--font-body);font-size:var(--fs-base);color:var(--olive);cursor:pointer;transition:all var(--t-fast) var(--ease);min-height:54px}
+.bkg-opt:hover{border-color:var(--saffron)}
+.bkg-opt.sel{background:var(--olive);border-color:var(--olive);color:var(--cream);font-weight:600}
+.bkg-opt:disabled{opacity:.35;cursor:not-allowed}
+.bkg-opt small{display:block;font-size:var(--fs-xs);opacity:.75;margin-top:2px}
+.bkg-opt b{display:block;font-family:var(--font-display);font-size:1.35rem;line-height:1.1}
+.bkg-svc{margin:var(--sp-3) 0 var(--sp-1);font-size:var(--fs-xs);letter-spacing:.18em;text-transform:uppercase;color:var(--saffron);font-weight:600}
+.bkg-notice{border:1px solid var(--line);border-left:3px solid var(--saffron);background:#fff;border-radius:0 var(--radius) var(--radius) 0;padding:1rem 1.2rem;font-size:var(--fs-sm);color:var(--ink-muted);line-height:1.55;margin-top:var(--sp-2)}
+.bkg-notice .btn{margin-top:.7rem}
+.bkg-scarce{display:inline-block;background:rgba(182,139,58,.14);color:#7d5f22;font-size:var(--fs-xs);padding:.2rem .8rem;border-radius:99px;margin-bottom:var(--sp-2)}
+.bkg-plate{display:flex;align-items:center;gap:12px;background:#fff;border:1.5px solid var(--line);border-radius:var(--radius);padding:.8rem 1rem;margin-bottom:.6rem;transition:border-color var(--t-fast) var(--ease)}
+.bkg-plate.sel{border-color:var(--saffron);box-shadow:0 0 0 1px var(--saffron)}
+.bkg-plate .tx{flex:1;min-width:0}
+.bkg-plate .nm{font-family:var(--font-display);font-weight:600;font-size:var(--fs-md);color:var(--olive);line-height:1.2}
+.bkg-plate .ds{font-size:var(--fs-xs);color:var(--ink-muted);line-height:1.4}
+.bkg-plate .pr{font-weight:600;color:var(--olive);white-space:nowrap;font-size:var(--fs-sm)}
+.bkg-qty{display:flex;align-items:center;border:1px solid var(--line-strong);border-radius:99px;overflow:hidden;background:#fff}
+.bkg-qty button{width:34px;height:34px;font-size:1.1rem;color:var(--ink-muted);border:none;background:none;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.bkg-qty button:hover{background:var(--cream-warm)}
+.bkg-qty b{min-width:22px;text-align:center;font-size:var(--fs-sm)}
+.bkg-skip{display:block;margin:var(--sp-2) auto 0;background:none;border:none;color:var(--ink-muted);text-decoration:underline;font-size:var(--fs-sm);cursor:pointer}
+.bkg-review{background:#fff;border:1px solid var(--line);border-radius:var(--radius-lg);padding:var(--sp-3)}
+.bkg-row{display:flex;justify-content:space-between;gap:1rem;padding:.55rem 0;border-bottom:1px dashed var(--line);font-size:var(--fs-sm)}
+.bkg-row:last-child{border:none}
+.bkg-row span{color:var(--ink-muted)}
+.bkg-row b{color:var(--olive);text-align:right}
+.bkg-row .bkg-edit{background:none;border:none;color:var(--terracotta);font-size:var(--fs-xs);text-decoration:underline;cursor:pointer;margin-left:.5rem}
+.bkg-cta{margin-top:var(--sp-3)}
+.bkg-cta .btn{width:100%}
+.bkg-cta .bkg-note{text-align:center;font-size:var(--fs-xs);color:var(--ink-muted);margin-top:.6rem}
+.bkg-done{text-align:center;padding:var(--sp-3) 0}
+.bkg-done .bkg-mark{width:70px;height:70px;border-radius:50%;background:var(--saffron);color:#fff;font-size:1.9rem;display:flex;align-items:center;justify-content:center;margin:0 auto var(--sp-2)}
+.bkg-done h2{font-family:var(--font-display);color:var(--olive);font-size:var(--fs-xl);margin-bottom:.5rem}
+.bkg-kerasma{font-family:var(--font-display);font-style:italic;font-size:var(--fs-md);color:var(--ink-muted);max-width:44ch;margin:var(--sp-2) auto;line-height:1.5}
+.bkg-acts{display:grid;gap:.6rem;max-width:400px;margin:var(--sp-2) auto 0}
+.bkg-err{color:#8a2f1c;font-size:var(--fs-xs);margin-top:.35rem;display:none}
+.bkg-privnotice{background:rgba(0,0,0,.035);border-left:3px solid var(--olive);border-radius:6px;padding:.85rem 1rem;margin-bottom:.95rem}
+.bkg-privnotice p{font-size:var(--fs-xs);line-height:1.65;color:var(--ink-muted);margin:0}
+.bkg-optin{margin-top:.7rem}
+.bkg-optin-foot{font-size:var(--fs-xs);margin-top:.7rem}
+.bkg-hp{position:absolute;left:-5000px;opacity:0}
+.bkg-spin{display:inline-block;width:16px;height:16px;border:2px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:bkgSp 1s linear infinite;vertical-align:-3px;margin-right:.4rem}
+@keyframes bkgSp{to{transform:rotate(360deg)}}
+</style>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6C53VGR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" role="banner">
+  <div class="container">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="logo logo--mark">
+        <img src="assets/images/bell-kitchen-logo.png" alt="Bell Kitchen — Cookaki Athens" width="46" height="46" fetchpriority="high"/>
+        <span class="logo-text"><strong>Bell Kitchen</strong><small>Cookaki · Koukáki · Since 1956</small></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="menu.html">Menu</a></li><li><a href="takeaway.html">Take Away</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="ingredients.html">Ingredients</a></li>
+        <li><a href="events.html">Events &amp; Catering</a></li>
+        <li><a href="products.html">Pantry</a></li>
+        <li><a href="contact.html">Visit</a></li>
+      </ul>
+      <div class="nav-cta">
+        <span class="lang-switch" role="group" aria-label="Change language" style="gap:.5rem"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.7 2.6 15.3 0 18M12 3c-2.6 2.7-2.6 15.3 0 18"/></svg><a href="el/reservations.html" hreflang="el" lang="el" style="color:inherit;text-decoration:none">EL</a><span aria-hidden="true" style="opacity:.35">·</span><a href="de/reservations.html" hreflang="de" lang="de" style="color:inherit;text-decoration:none">DE</a><span aria-hidden="true" style="opacity:.35">·</span><a href="fr/reservations.html" hreflang="fr" lang="fr" style="color:inherit;text-decoration:none">FR</a><span aria-hidden="true" style="opacity:.35">·</span><a href="es/reservations.html" hreflang="es" lang="es" style="color:inherit;text-decoration:none">ES</a><span aria-hidden="true" style="opacity:.35">·</span><a href="zh/reservations.html" hreflang="zh" lang="zh-Hans" style="color:inherit;text-decoration:none">中文</a></span>
+        <a href="https://noe.bfwqr.com/" class="btn btn--ghost btn--small" target="_blank" rel="noopener noreferrer">Order</a>
+        <a href="reservations.html" aria-current="page" class="btn btn--primary btn--small">Reserve</a>
+      </div>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span></button>
+    </nav>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" data-open="false" role="dialog" aria-modal="true" aria-label="Site menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="takeaway.html">Take Away</a></li>
+      <li><a href="about.html">Our Story — Since 1956</a></li><li><a href="manifesto.html">Manifesto</a></li>
+      <li><a href="ingredients.html">Our Ingredients</a></li>
+      <li><a href="events.html">Events &amp; Catering</a></li>
+      <li><a href="products.html">Pantry &amp; Products</a></li>
+      <li><a href="gallery.html">Gallery</a></li><li><a href="press.html">Press</a></li>
+      <li><a href="reservations.html" aria-current="page">Reservations</a></li>
+      <li><a href="delivery.html">Delivery &amp; Takeaway</a></li>
+      <li><a href="contact.html">Visit &amp; Contact</a></li>
+      <li style="margin-top:.6rem"><div style="display:flex;flex-wrap:wrap;gap:.5rem" role="group" aria-label="Change language"><a class="mobile-lang" href="el/reservations.html" hreflang="el" lang="el" style="margin-top:0;padding:.4rem .85rem">Ελληνικά</a><a class="mobile-lang" href="de/reservations.html" hreflang="de" lang="de" style="margin-top:0;padding:.4rem .85rem">Deutsch</a><a class="mobile-lang" href="fr/reservations.html" hreflang="fr" lang="fr" style="margin-top:0;padding:.4rem .85rem">Français</a><a class="mobile-lang" href="es/reservations.html" hreflang="es" lang="es" style="margin-top:0;padding:.4rem .85rem">Español</a><a class="mobile-lang" href="zh/reservations.html" hreflang="zh" lang="zh-Hans" style="margin-top:0;padding:.4rem .85rem">中文</a></div></li>
+    </ul>
+    <div class="mobile-cta">
+      <a href="https://noe.bfwqr.com/" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Order Online</a>
+      <a href="https://wa.me/306982373505" class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Reservations</p>
+    <h1>Sit at our table</h1>
+    <p class="lede">Five minutes from the Acropolis Museum, three generations from 1956. Book in under a minute — and reserve today's home-cooked plates before they sell out.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container container--narrow">
+    <div class="form-card">
+
+      <!-- ================================================================
+           Booking wizard — one question per screen, backed by the
+           Apps Script reservations backend (Google Sheet + daily menu).
+           ================================================================ -->
+      <div class="bkg-progress" id="bkgProgress" aria-hidden="true"></div>
+
+      <!-- STEP 0 · PARTY -->
+      <section class="bkg-step on" id="bkgS0">
+        <p class="bkg-q">How many of you?</p>
+        <p class="bkg-sub">Children count too — we have room for everyone.</p>
+        <div class="bkg-grid" id="bkgParty"></div>
+        <div class="bkg-notice" id="bkgGroupNote" hidden>
+          <strong>Lovely — a big table!</strong> For 9 or more guests we plan seating (and, if you like, a small set menu) personally. Message us on WhatsApp — we reply within minutes during opening hours.
+          <br><a class="btn btn--whatsapp btn--small" id="bkgGroupWa" href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer">WhatsApp us about your group</a>
+        </div>
+      </section>
+
+      <!-- STEP 1 · DATE -->
+      <section class="bkg-step" id="bkgS1">
+        <button type="button" class="bkg-back" data-goto="0">← Back</button>
+        <p class="bkg-q">Which day?</p>
+        <p class="bkg-sub">The menu changes daily — pick a day and see what's cooking.</p>
+        <div class="bkg-grid" id="bkgDates"></div>
+        <p class="bkg-notice" id="bkgDateNote" hidden></p>
+      </section>
+
+      <!-- STEP 2 · TIME -->
+      <section class="bkg-step" id="bkgS2">
+        <button type="button" class="bkg-back" data-goto="1">← Back</button>
+        <p class="bkg-q">What time?</p>
+        <p class="bkg-sub" id="bkgTimeSub">Athens time. Last seating 30 minutes before close.</p>
+        <div id="bkgSlots"></div>
+        <p class="bkg-notice" id="bkgPauseNote" hidden></p>
+        <p class="bkg-err" id="bkgErrTime">Please choose a time.</p>
+      </section>
+
+      <!-- STEP 3 · PLATES -->
+      <section class="bkg-step" id="bkgS3">
+        <button type="button" class="bkg-back" data-goto="2">← Back</button>
+        <p class="bkg-q" id="bkgMenuTitle">Today from the kitchen</p>
+        <p class="bkg-sub">Optional — start composing your journey now and we'll set it aside for your table. You pay at the restaurant.</p>
+        <span class="bkg-scarce">★ Daily specials often sell out by 21:00</span>
+        <div id="bkgMenu"></div>
+        <button type="button" class="bkg-skip" id="bkgSkip">I'll choose at the table →</button>
+      </section>
+
+      <!-- STEP 4 · DETAILS -->
+      <section class="bkg-step" id="bkgS4">
+        <button type="button" class="bkg-back" data-goto="3">← Back</button>
+        <p class="bkg-q">Last step — who's coming?</p>
+        <p class="bkg-sub">Just a name and a phone. No account, no spam.</p>
+        <div class="form-grid">
+          <div class="field field--full">
+            <label for="bkgName">Full name</label>
+            <input id="bkgName" type="text" autocomplete="name" placeholder="Maria Papadopoulou" maxlength="120" required>
+            <p class="bkg-err" id="bkgErrName">Please tell us your name.</p>
+          </div>
+          <div class="field">
+            <label for="bkgPhone">Phone (WhatsApp preferred)</label>
+            <input id="bkgPhone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+30 …" maxlength="40" required>
+            <p class="bkg-err" id="bkgErrPhone">Please enter a phone number we can reach you on (at least 8 digits).</p>
+          </div>
+          <div class="field">
+            <label for="bkgEmail">Email <span class="muted">(optional)</span></label>
+            <input id="bkgEmail" type="email" autocomplete="email" placeholder="you@example.com" maxlength="160">
+          </div>
+          <div class="field field--full">
+            <label for="bkgNotes">Anything we should know? <span class="muted">(allergies, occasion, seating)</span></label>
+            <textarea id="bkgNotes" rows="3" placeholder="Birthday dinner, two seats inside…" maxlength="1500"></textarea>
+          </div>
+          <div class="field field--full">
+            <div class="bkg-privnotice">
+              <p><strong>How we use your details.</strong> We use your name and contact details to hold your table. The day after your visit we send one short message asking how it was — you can stop it at any time with one click. We keep your details for 12 months and share them only with the providers that carry our messages. Full details in our <a href="privacy.html">Privacy Policy</a>.</p>
+            </div>
+            <div class="check-row bkg-optin">
+              <input type="checkbox" id="bkgMarketing">
+              <label for="bkgMarketing">Send me occasional news from Bell Kitchen — new dishes, events, opening changes. I can unsubscribe at any time. <span class="muted">(optional)</span></label>
+            </div>
+            <div class="check-row bkg-optin">
+              <input type="checkbox" id="bkgWhatsapp">
+              <label for="bkgWhatsapp">You may contact me on WhatsApp on this number instead of by email. <span class="muted">(optional)</span></label>
+            </div>
+            <p class="muted bkg-optin-foot">Neither box is required to make a booking.</p>
+          </div>
+        </div>
+        <input class="bkg-hp" id="bkgWeb" tabindex="-1" autocomplete="off" aria-hidden="true">
+      </section>
+
+      <!-- STEP 5 · REVIEW -->
+      <section class="bkg-step" id="bkgS5">
+        <button type="button" class="bkg-back" data-goto="4">← Back</button>
+        <p class="bkg-q">Everything look right?</p>
+        <p class="bkg-sub">You can still change anything.</p>
+        <div class="bkg-review" id="bkgReview"></div>
+      </section>
+
+      <!-- STEP 6 · DONE -->
+      <section class="bkg-step bkg-done" id="bkgS6">
+        <div class="bkg-mark">✓</div>
+        <h2>Your table is reserved!</h2>
+        <p class="bkg-sub" id="bkgDoneSub"></p>
+        <p class="bkg-sub" id="bkgMailNote" style="margin-top:.6rem"></p>
+        <p class="bkg-kerasma">“A kérasma of bread, olive oil and salt from our family will be waiting on your table — as it has since 1956.”</p>
+        <div class="bkg-acts">
+          <a class="btn btn--primary btn--large" id="bkgIcs" download="cookaki-reservation.ics" href="#">📅 Add to calendar</a>
+          <a class="btn btn--whatsapp btn--small" href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer">💬 Message us on WhatsApp</a>
+          <a class="btn btn--secondary btn--small" href="https://maps.google.com/?q=Cookaki+Petmeza+5+Koukaki+Athens" target="_blank" rel="noopener noreferrer">📍 How to find us</a>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <div class="bkg-cta" id="bkgCta">
+        <button type="button" class="btn btn--primary btn--large" id="bkgBtn">Continue</button>
+        <p class="bkg-note" id="bkgNote">Free · no prepayment · free cancellation up to 2 hours before</p>
+      </div>
+      <p class="form-status" id="bkgStatus" role="status" aria-live="polite"></p>
+
+    </div>
+
+    <div class="reservation-alt">
+      <h2>Or contact us directly</h2>
+      <ul class="contact-list">
+        <li><strong>WhatsApp</strong> <a href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer">+30 698 237 3505</a></li>
+        <li><strong>Phone</strong> <a href="tel:+302109219818">+30 21 0921 9818</a></li>
+        <li><strong>Email</strong> <a href="mailto:info@littlenoe.com">info@littlenoe.com</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container container--narrow">
+    <h2 class="section-title">Good to know</h2>
+    <details class="faq"><summary>Do you accept walk-ins?</summary><p>Yes — we always keep a few tables free for walk-ins. On Friday and Saturday nights we strongly recommend reserving ahead.</p></details>
+    <details class="faq"><summary>Can I really order my plates in advance?</summary><p>Yes. Our hot table changes daily — when you pick a day, you'll see exactly what's cooking and can reserve your plates so they're set aside for your table. You pay at the restaurant as usual.</p></details>
+    <details class="faq"><summary>How big a group can you seat?</summary><p>Up to 8 guests through the form. For 9 or more, WhatsApp us at <a href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer">+30 698 237 3505</a> — we'll arrange a table and, if you'd like, a small set menu.</p></details>
+    <details class="faq"><summary>Do you take a deposit?</summary><p>No deposit for tables up to 8. For private events or full restaurant buy-outs we may request a small deposit, refundable against the bill.</p></details>
+    <details class="faq"><summary>How long is a table held?</summary><p>We hold reservations for 15 minutes past the booking time. If you're running late, just message us.</p></details>
+    <details class="faq"><summary>Can you accommodate allergies and dietary needs?</summary><p>Yes — vegetarian, vegan, and gluten-free options are clearly tagged on the <a href="menu.html">menu</a>. Please note any allergies on the form and we'll flag your table.</p></details>
+    <details class="faq"><summary>Is the restaurant accessible?</summary><p>The dining room is on street level. For specific accessibility needs (wheelchair, mobility), message us in advance so we can prepare the best table for you.</p></details>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-mark">
+          <img src="assets/images/bell-kitchen-logo.png" alt="Bell Kitchen mark"  loading="lazy" decoding="async"/>
+          <h3>Bell Kitchen <em>· Cookaki</em></h3>
+        </div>
+        <p>Petméza 5, Koukáki, Athens 11742 · Greece</p>
+        <p class="mt-2"><em>From earth. To table. To memory.<br>Honest choices. Richer life.</em></p>
+      </div>
+      <div class="footer-col"><h4>Eat &amp; Visit</h4><ul><li><a href="menu.html">Menu</a></li><li><a href="takeaway.html">Take Away</a></li><li><a href="reservations.html">Reservations</a></li><li><a href="about.html">Our Story</a></li><li><a href="manifesto.html">Manifesto</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="press.html">Press</a></li><li><a href="contact.html">Visit &amp; Contact</a></li><li><a href="greek-restaurant-near-acropolis.html">Near the Acropolis</a></li><li><a href="where-to-eat-in-koukaki.html">Where to Eat in Koukáki</a></li><li><a href="vegetarian-greek-koukaki.html">Vegetarian Greek</a></li></ul></div>
+      <div class="footer-col"><h4>Grow &amp; Celebrate</h4><ul><li><a href="ingredients.html">Our Ingredients</a></li><li><a href="events.html">Private Events</a></li><li><a href="events.html#inquire">Catering at Your Place</a></li><li><a href="products.html">Pantry &amp; Products</a></li></ul></div>
+      <div class="footer-col"><h4>Order &amp; Follow</h4><ul><li><a href="https://noe.bfwqr.com/" target="_blank" rel="noopener noreferrer">Order Online</a></li><li><a href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer">WhatsApp +30 698 237 3505</a></li><li><a href="https://www.instagram.com/cookaki_1956/" target="_blank" rel="noopener noreferrer">Instagram @cookaki_1956</a></li><li><a href="tel:+302109219818">+30 21 0921 9818</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© <span data-year>2026</span> Bell Kitchen · Cookaki · Operated by the Little Noe Team</span><span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div>
+  </div>
+</footer>
+
+<nav class="mobile-dock" aria-label="Quick actions">
+  <a href="https://noe.bfwqr.com/" class="primary" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h18l-2 12H5L3 7zM8 7V5a4 4 0 018 0v2"/></svg>Order</a>
+  <a href="reservations.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg>Reserve</a>
+  <a href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 12a8 8 0 11-3-6L20 4l-1 4a8 8 0 011 4z"/></svg>WhatsApp</a>
+  <a href="https://maps.google.com/?q=Cookaki+Petmeza+5+Koukaki+Athens" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-8 8-13a8 8 0 10-16 0c0 5 8 13 8 13z"/><circle cx="12" cy="9" r="2.5"/></svg>Map</a>
+</nav>
+<aside class="desk-dock" aria-label="Quick contact">
+  <a href="https://wa.me/306982373505" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 12a8 8 0 11-3-6L20 4l-1 4a8 8 0 011 4z"/></svg>WhatsApp Order</a>
+  <a href="reservations.html" class="primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg>Reserve a Table</a>
+</aside>
+
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/consent.js" defer></script>
+
+<!-- =========================================================================
+     Booking engine — talks to the Apps Script backend (Google Sheet).
+     Daily menu comes from ?action=menu&date=…; reservations go via POST with
+     an automatic GET fallback (Safari drops POST bodies on Google's redirect)
+     and a cid duplicate-guard so a booking can never land twice.
+     ========================================================================= -->
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------- OWNER SETTINGS ---------------- */
+  var NOTICE_VERSION = "2026-08-26";
+  var API = "https://script.google.com/macros/s/AKfycbwlStypPRX6hhMt8EOII7KV32jzoBcRNi6mCNUpVMokj3P0oiztg2vJT_nVdMR0M1Vu8g/exec";
+  /* Staff availability switch \u2014 the /exec URL of staff/Code.gs.
+     Leave "" and the page behaves exactly as it did before the switch. */
+  var PAUSE_API = "https://script.google.com/macros/s/AKfycbwpX0emKO4RwlHRJP7C38k6F83vb6_QSlwgThhwCoFVQ9mD9Wk2gAwScdmi_PFfApVVNA/exec";
+  var PAUSE_TTL = 60000;          /* re-read the switch at most once a minute */
+  var DAYS_AHEAD = 7;
+  var SLOT_MIN = 30, CUTOFF_MIN = 45;
+  function services(dow) { // 0=Sun … 6=Sat (real opening hours)
+    return dow === 0
+      ? [{ name: "All day", start: "12:00", end: "16:15" }]
+      : [{ name: "Lunch", start: "12:00", end: "15:30" }, { name: "Dinner", start: "19:00", end: "21:15" }];
+  }
+  var WA_PHONE = "306982373505";
+  var LANG = "en";
+  var TXT = {
+    pausePartial: "<strong>Some times are fully booked.</strong> The greyed times aren\u2019t available \u2014 the rest are still open, or message us and we\u2019ll see what we can do.",
+    pauseService: function (closed, open) { return "<strong>" + closed + " is fully booked.</strong> We still have tables for " + open + " \u2014 the open times are below, or message us and we\u2019ll see what we can do."; },
+    pauseServiceOnly: function (closed) { return "<strong>" + closed + " is fully booked.</strong> Message us and we\u2019ll see what we can do."; },
+    pauseDates: "<strong>Some days are closed for online booking.</strong> The greyed dates aren\u2019t available \u2014 message us and we\u2019ll see what we can do.",
+    pauseDay: "<strong>Online booking is closed for this day.</strong> Message us and we\u2019ll see what we can do.",
+    pauseUntil: function (t) { return "<strong>We\u2019re fully booked until " + t + ".</strong> The greyed times aren\u2019t available \u2014 later seatings are still open, or message us and we\u2019ll see what we can do."; },
+    pauseWa: function (d) { return "Hi Bell Kitchen! Do you have a table" + (d ? " on " + d : "") + "? The website shows those hours as unavailable."; },
+    pauseWaBtn: "WhatsApp us",
+    pauseGone: "Sorry \u2014 that time has just closed. Please choose another.",
+    continue_: "Continue", confirm: "Confirm reservation", sending: "Reserving…",
+    note: "Free · no prepayment · free cancellation up to 2 hours before",
+    today: "Today", tmrw: "Tmrw",
+    menuFor: "Cooking on ", menuEmpty: "The day's menu isn't posted yet — you'll choose at the table.",
+    rParty: "Guests", rDate: "Date", rTime: "Time", rPlates: "Plates reserved",
+    rNone: "choosing at the table", rName: "Name", rPhone: "Phone", edit: "edit",
+    timeSub: " · Athens time. Last seating 21:15 (16:15 on Sundays).",
+    done: function (p, d, h, n) { return "We've saved your table for " + p + " guests on " + d + " at " + h + "."; },
+    errNet: "Something went wrong — please try again, or WhatsApp us at +30 698 237 3505.",
+    cats: { hot: "Choose your Main Act", sea: "From the Greek seas", cold: "Complete your journey", sweet: "Something sweet" },
+    mailNote: function (a) { return "We’ve sent a copy to <strong>" + a + "</strong>. Nothing after a few minutes? Have a quick look in spam — your table is booked either way."; },
+    groupWa: function (d) { return "Hi Bell Kitchen! We're a group of 9+ and would love a table" + (d ? " on " + d : "") + ". Could you help us plan it?"; }
+  };
+  /* ------------------------------------------------ */
+
+  var $ = function (id) { return document.getElementById(id); };
+  var S = { step: 0, party: null, date: null, time: null, plates: {}, name: "", phone: "", email: "", notes: "", marketing: false };
+  var MENU = {}; // date → plates[] (null = unavailable)
+  var STEPS = 7;
+
+  function locale() { return LANG === "el" ? "el-GR" : "en-GB"; }
+  var ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+  function isIsoDate(s) {
+    if (typeof s !== "string" || !ISO_DATE.test(s)) return false;
+    var d = new Date(s + "T00:00:00Z");
+    return !isNaN(d.getTime()) && d.toISOString().slice(0, 10) === s;
+  }
+  function longDate(iso) {
+    if (!isIsoDate(iso)) return typeof iso === "string" ? iso : "";
+    return new Intl.DateTimeFormat(locale(), { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" })
+      .format(new Date(iso + "T00:00:00Z"));
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function toMin(t) { var p = t.split(":"); return +p[0] * 60 + +p[1]; }
+  function toHHMM(m) { return String(Math.floor(m / 60)).padStart(2, "0") + ":" + String(m % 60).padStart(2, "0"); }
+  function athensNow() {
+    var parts = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Athens", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(new Date());
+    var g = function (t) { return parts.find(function (p) { return p.type === t; }).value; };
+    return { dateStr: g("year") + "-" + g("month") + "-" + g("day"), minutes: (parseInt(g("hour"), 10) % 24) * 60 + parseInt(g("minute"), 10) };
+  }
+  function addDays(iso, n) { var d = new Date(iso + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); }
+  function dow(iso) { return new Date(iso + "T00:00:00Z").getUTCDay(); }
+  var NOW = athensNow();
+
+  /* ---------------- availability switch (staff pause) ----------------
+     Read-only public GET on the staff Apps Script (staff/Code.gs), driven
+     from staff/pause.html. Two things can close a seating:
+       untilDate/untilMin  every seating that starts before that instant
+       days[]              whole dates closed to online booking
+       windows[]           part of one date: {d, a, b} in minutes, both ends
+                           inclusive, so a closed lunch takes 15:30 with it
+     It FAILS OPEN on purpose: if the switch cannot be reached, booking
+     behaves exactly as it did before it existed.                        */
+  var PAUSE = { untilDate: "", untilMin: 0, days: [], windows: [], fetched: 0 };
+  var PAUSE_MSG = "";   /* survives the async rebuild that go(2) triggers */
+
+  function pauseFetch() {
+    if (!PAUSE_API) return Promise.resolve(PAUSE);
+    if (PAUSE.fetched && Date.now() - PAUSE.fetched < PAUSE_TTL) return Promise.resolve(PAUSE);
+    var opts = {}, ctl = null;
+    if (typeof AbortController === "function") {
+      ctl = new AbortController(); opts.signal = ctl.signal;
+      setTimeout(function () { try { ctl.abort(); } catch (e) {} }, 4000);
+    }
+    return fetch(PAUSE_API + "?action=pause&t=" + Date.now(), opts)
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (j && j.ok === true) {
+          PAUSE.untilDate = j.untilDate || "";
+          PAUSE.untilMin = parseInt(j.untilMin, 10) || 0;
+          PAUSE.days = j.days || [];
+          PAUSE.windows = (j.windows || []).filter(function (w) {
+            return w && w.d && isFinite(w.a) && isFinite(w.b);
+          });
+          PAUSE.fetched = Date.now();
+        }
+        return PAUSE;
+      })
+      .catch(function () { return PAUSE; });
+  }
+
+  function dayPaused(iso) { return PAUSE.days.indexOf(iso) > -1; }
+  function windowPaused(iso, min) {
+    for (var i = 0; i < PAUSE.windows.length; i++) {
+      var w = PAUSE.windows[i];
+      if (w.d === iso && min >= w.a && min <= w.b) return true;
+    }
+    return false;
+  }
+  function slotPaused(iso, min) {
+    if (!iso) return false;
+    if (dayPaused(iso)) return true;
+    if (windowPaused(iso, min)) return true;
+    if (!PAUSE.untilDate) return false;
+    if (iso < PAUSE.untilDate) return true;            /* window runs past this day */
+    return iso === PAUSE.untilDate && min < PAUSE.untilMin;
+  }
+  /* every seating step 2 would offer for a date, in minutes */
+  function slotsFor(iso) {
+    var out = [];
+    services(dow(iso)).forEach(function (svc) {
+      var e = toMin(svc.end);
+      for (var m = toMin(svc.start); m <= e; m += SLOT_MIN) out.push(m);
+      if (out[out.length - 1] !== e) out.push(e);
+    });
+    return out;
+  }
+  function tooSoon(iso, m) { return iso === NOW.dateStr && m < NOW.minutes + CUTOFF_MIN; }
+  function openSlots(iso) {
+    return slotsFor(iso).filter(function (m) {
+      return !tooSoon(iso, m) && !slotPaused(iso, m);
+    }).length;
+  }
+  /* true when the switch \u2014 not simply the passing of time \u2014 emptied a date */
+  function pauseEmptied(iso) {
+    if (openSlots(iso) !== 0) return false;
+    return slotsFor(iso).filter(function (m) {
+      return !tooSoon(iso, m) && slotPaused(iso, m);
+    }).length > 0 || dayPaused(iso);
+  }
+  /* A service counts as closed when the switch took every seating in it.
+     Seatings already past (today's cutoff) are ignored, so "lunch is full"
+     is not announced at 20:00 to someone looking at tonight.               */
+  function serviceStatus(iso) {
+    var out = [];
+    services(dow(iso)).forEach(function (svc) {
+      var e = toMin(svc.end), live = [], shut = 0;
+      for (var m = toMin(svc.start); m <= e; m += SLOT_MIN) live.push(m);
+      if (live[live.length - 1] !== e) live.push(e);
+      live = live.filter(function (m) { return !tooSoon(iso, m); });
+      live.forEach(function (m) { if (slotPaused(iso, m)) shut++; });
+      if (!live.length) return;                        /* service already over */
+      out.push({ name: svc.name, closed: shut === live.length, open: live.length - shut });
+    });
+    return out;
+  }
+
+  function pauseWaHref(iso) {
+    return "https://wa.me/" + WA_PHONE + "?text=" +
+      encodeURIComponent(TXT.pauseWa(iso ? longDate(iso) : ""));
+  }
+  function pauseWaBtn(iso) {
+    return '<br><a class="btn btn--whatsapp btn--small" href="' + pauseWaHref(iso) +
+           '" target="_blank" rel="noopener noreferrer">' + TXT.pauseWaBtn + "</a>";
+  }
+
+  /* ---------------- navigation ---------------- */
+  var prog = $("bkgProgress");
+  for (var i = 0; i < STEPS; i++) { var b = document.createElement("i"); prog.appendChild(b); }
+  function go(n) {
+    S.step = n;
+    for (var i = 0; i < STEPS; i++) {
+      $("bkgS" + i).classList.toggle("on", i === n);
+      prog.children[i].classList.toggle("on", i <= n);
+    }
+    if (n === 1) pauseFetch().then(function () { buildDates(); });
+    if (n === 2) pauseFetch().then(function () { buildSlots(); });
+    if (n === 3) buildMenu();
+    if (n === 5) buildReview();
+    refreshCta();
+    var card = document.querySelector(".form-card");
+    if (card && card.getBoundingClientRect().top < 0) card.scrollIntoView({ behavior: "smooth" });
+  }
+  function next() { go(Math.min(S.step + 1, STEPS - 1)); }
+  document.querySelectorAll(".bkg-back").forEach(function (b) {
+    b.addEventListener("click", function () { go(parseInt(b.getAttribute("data-goto"), 10)); });
+  });
+
+  var btn = $("bkgBtn"), note = $("bkgNote"), cta = $("bkgCta");
+  function refreshCta() {
+    cta.hidden = false; note.textContent = TXT.note;
+    switch (S.step) {
+      case 0: cta.hidden = true; break;                       // party auto-advances
+      case 1: cta.hidden = true; break;                       // date auto-advances
+      case 2: cta.hidden = true; break;                       // time auto-advances
+      case 3: btn.textContent = TXT.continue_; btn.disabled = false; break;
+      case 4: btn.textContent = TXT.continue_; btn.disabled = false; break;
+      case 5: btn.textContent = TXT.confirm; btn.disabled = false; break;
+      case 6: cta.hidden = true; break;
+    }
+  }
+  btn.addEventListener("click", function () {
+    if (S.step === 4) { if (!validate()) return; }
+    if (S.step === 5) { submit(); return; }
+    next();
+  });
+
+  /* ---------------- step 0: party ---------------- */
+  var partyGrid = $("bkgParty");
+  for (var p = 1; p <= 9; p++) {
+    (function (val) {
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "bkg-opt";
+      b.textContent = val === 9 ? "9+" : String(val);
+      b.addEventListener("click", function () {
+        S.party = val === 9 ? "9+" : String(val);
+        Array.prototype.forEach.call(partyGrid.children, function (c) { c.classList.remove("sel"); });
+        b.classList.add("sel");
+        var big = S.party === "9+";
+        $("bkgGroupNote").hidden = !big;
+        if (big) {
+          $("bkgGroupWa").href = "https://wa.me/" + WA_PHONE + "?text=" + encodeURIComponent(TXT.groupWa(S.date ? longDate(S.date) : ""));
+        } else { setTimeout(next, 200); }
+      });
+      partyGrid.appendChild(b);
+    })(p);
+  }
+
+  /* ---------------- step 1: dates ---------------- */
+  var dateGrid = $("bkgDates");
+  function buildDates() {
+    NOW = athensNow();
+    dateGrid.innerHTML = "";
+    var blockedDates = 0;
+    for (var i = 0; i < DAYS_AHEAD; i++) {
+      (function (iso, idx) {
+        var d = new Date(iso + "T00:00:00Z");
+        var b = document.createElement("button");
+        b.type = "button"; b.className = "bkg-opt" + (S.date === iso ? " sel" : "");
+        var wd = idx === 0 ? TXT.today : idx === 1 ? TXT.tmrw :
+          new Intl.DateTimeFormat(locale(), { weekday: "short", timeZone: "UTC" }).format(d);
+        var mo = new Intl.DateTimeFormat(locale(), { month: "short", timeZone: "UTC" }).format(d);
+        b.innerHTML = "<small>" + esc(wd) + "</small><b>" + d.getUTCDate() + "</b><small>" + esc(mo) + "</small>";
+        if (openSlots(iso) === 0) { b.disabled = true; if (pauseEmptied(iso)) blockedDates++; }
+        b.addEventListener("click", function () {
+          S.date = iso; S.time = null; S.plates = {};
+          buildDates(); buildSlots(); setTimeout(next, 200);
+        });
+        dateGrid.appendChild(b);
+      })(addDays(NOW.dateStr, i), i);
+    }
+    var dn = $("bkgDateNote");
+    if (dn) {
+      dn.innerHTML = blockedDates ? TXT.pauseDates + pauseWaBtn("") : "";
+      dn.hidden = !blockedDates;
+    }
+  }
+
+  /* ---------------- step 2: time slots ---------------- */
+  function buildSlots() {
+    NOW = athensNow();
+    var wrap = $("bkgSlots"); wrap.innerHTML = "";
+    if (!S.date) return;
+    var isToday = S.date === NOW.dateStr;
+    services(dow(S.date)).forEach(function (svc) {
+      var h = document.createElement("p"); h.className = "bkg-svc"; h.textContent = svc.name; wrap.appendChild(h);
+      var g = document.createElement("div"); g.className = "bkg-grid";
+      var svcEnd = toMin(svc.end), svcTimes = [];
+      for (var sm = toMin(svc.start); sm <= svcEnd; sm += SLOT_MIN) svcTimes.push(sm);
+      if (svcTimes[svcTimes.length - 1] !== svcEnd) svcTimes.push(svcEnd); // keep the exact last seating (e.g. 21:15)
+      svcTimes.forEach(function (m) {
+        (function (t, past) {
+          var b = document.createElement("button");
+          b.type = "button"; b.className = "bkg-opt" + (S.time === t ? " sel" : "");
+          b.textContent = t; b.disabled = past;
+          b.addEventListener("click", function () { PAUSE_MSG = ""; S.time = t; buildSlots(); setTimeout(next, 200); });
+          g.appendChild(b);
+        })(toHHMM(m), (isToday && m < NOW.minutes + CUTOFF_MIN) || slotPaused(S.date, m));
+      });
+      wrap.appendChild(g);
+    });
+    $("bkgTimeSub").textContent = longDate(S.date) + TXT.timeSub;
+
+    var et = $("bkgErrTime");
+    if (et) {
+      if (PAUSE_MSG) { et.textContent = PAUSE_MSG; et.style.display = "block"; }
+      else { et.style.display = "none"; }
+    }
+    var pn = $("bkgPauseNote");
+    if (pn) {
+      var paused = slotsFor(S.date).filter(function (m) { return slotPaused(S.date, m); }).length;
+      if (!paused) {
+        pn.hidden = true; pn.innerHTML = "";
+      } else if (dayPaused(S.date) || openSlots(S.date) === 0) {
+        pn.hidden = false; pn.innerHTML = TXT.pauseDay + pauseWaBtn(S.date);
+      } else {
+        var sv = serviceStatus(S.date);
+        var shut = sv.filter(function (x) { return x.closed; });
+        var free = sv.filter(function (x) { return !x.closed && x.open; });
+        pn.hidden = false;
+        if (shut.length && free.length) {
+          pn.innerHTML = TXT.pauseService(shut[0].name, free[0].name) + pauseWaBtn(S.date);
+        } else if (shut.length) {
+          pn.innerHTML = TXT.pauseServiceOnly(shut[0].name) + pauseWaBtn(S.date);
+        } else {
+          /* Only say "until HH:MM" when the rolling pause is what closed these
+             seatings. A window can close the END of a day, where "until" lies. */
+          var rolling = S.date === PAUSE.untilDate && PAUSE.untilMin > 0;
+          pn.innerHTML = (rolling ? TXT.pauseUntil(toHHMM(PAUSE.untilMin)) : TXT.pausePartial) +
+                         pauseWaBtn(S.date);
+        }
+      }
+    }
+  }
+
+  /* ---------------- step 3: daily menu ---------------- */
+  function fetchMenu(iso) {
+    if (MENU[iso] !== undefined) return Promise.resolve(MENU[iso]);
+    return fetch(API + "?action=menu&date=" + iso)
+      .then(function (r) { return r.json(); })
+      .then(function (j) { MENU[iso] = (j.ok && j.plates && j.plates.length) ? j.plates : null; return MENU[iso]; })
+      .catch(function () { MENU[iso] = null; return null; });
+  }
+  function buildMenu() {
+    $("bkgMenuTitle").textContent = TXT.menuFor + longDate(S.date);
+    var list = $("bkgMenu");
+    list.innerHTML = '<p class="bkg-sub">…</p>';
+    fetchMenu(S.date).then(function (plates) {
+      list.innerHTML = "";
+      if (!plates) { list.innerHTML = '<p class="bkg-sub">' + TXT.menuEmpty + "</p>"; return; }
+      ["hot", "sea", "cold", "sweet"].forEach(function (cat) {
+        var items = plates.filter(function (p) { return p.cat === cat; });
+        if (!items.length) return;
+        var h = document.createElement("p"); h.className = "bkg-svc"; h.textContent = TXT.cats[cat] || cat; list.appendChild(h);
+        items.forEach(function (p) {
+          var q = S.plates[p.id] || 0;
+          var row = document.createElement("div"); row.className = "bkg-plate" + (q > 0 ? " sel" : "");
+          row.innerHTML = '<div class="tx"><div class="nm">' + esc(LANG === "el" ? p.el : p.en) + '</div><div class="ds">' + esc(LANG === "el" ? (p.del || "") : (p.den || "")) + "</div></div>" +
+            '<div class="pr">€' + Number(p.pr).toFixed(2).replace(".00", "") + "</div>" +
+            '<div class="bkg-qty"><button type="button" aria-label="less">−</button><b>' + (q || "") + '</b><button type="button" aria-label="more">+</button></div>';
+          var bs = row.querySelectorAll(".bkg-qty button");
+          bs[0].addEventListener("click", function () { if (S.plates[p.id]) { S.plates[p.id]--; if (!S.plates[p.id]) delete S.plates[p.id]; buildMenu(); } });
+          bs[1].addEventListener("click", function () { S.plates[p.id] = (S.plates[p.id] || 0) + 1; buildMenu(); });
+          list.appendChild(row);
+        });
+      });
+    });
+  }
+  $("bkgSkip").addEventListener("click", function () { next(); });
+
+  /* ---------------- step 4: validation ---------------- */
+  function validate() {
+    var ok = true;
+    S.name = $("bkgName").value.trim();
+    S.phone = $("bkgPhone").value.trim();
+    S.email = $("bkgEmail").value.trim();
+    S.notes = $("bkgNotes").value.trim();
+    S.marketing = $("bkgMarketing").checked;
+    S.waChannel = $("bkgWhatsapp").checked;
+    $("bkgErrName").style.display = S.name ? "none" : "block"; if (!S.name) ok = false;
+    var phoneOk = S.phone.replace(/\D/g, "").length >= 8;
+    $("bkgErrPhone").style.display = phoneOk ? "none" : "block"; if (!phoneOk) ok = false;
+    return ok;
+  }
+
+  /* ---------------- step 5: review ---------------- */
+  function plateSummary() {
+    var plates = MENU[S.date] || [];
+    return Object.keys(S.plates).map(function (id) {
+      var p = plates.find(function (x) { return x.id === id; });
+      return p ? S.plates[id] + "× " + (LANG === "el" ? p.el : p.en) : null;
+    }).filter(Boolean);
+  }
+  function buildReview() {
+    var rows = [
+      [TXT.rParty, S.party, 0], [TXT.rDate, longDate(S.date), 1], [TXT.rTime, S.time, 2],
+      [TXT.rPlates, plateSummary().join(", ") || TXT.rNone, 3],
+      [TXT.rName, S.name, 4], [TXT.rPhone, S.phone, 4]
+    ];
+    $("bkgReview").innerHTML = rows.map(function (r) {
+      return '<div class="bkg-row"><span>' + esc(r[0]) + "</span><b>" + esc(r[1]) +
+        ' <button type="button" class="bkg-edit" data-goto="' + r[2] + '">' + TXT.edit + "</button></b></div>";
+    }).join("");
+    document.querySelectorAll("#bkgReview .bkg-edit").forEach(function (b) {
+      b.addEventListener("click", function () { go(parseInt(b.getAttribute("data-goto"), 10)); });
+    });
+  }
+
+  /* ---------------- submit (POST → GET fallback, cid dedupe) ---------------- */
+  function submit() {
+    if ($("bkgWeb").value) return; // honeypot
+    if (!isIsoDate(S.date) || !/^([01]\d|2[0-3]):[0-5]\d$/.test(S.time || "") || !S.party) {
+      $("bkgStatus").textContent = TXT.errNet;
+      go(1); return;
+    }
+    btn.disabled = true; btn.innerHTML = '<span class="bkg-spin"></span>' + TXT.sending;
+    /* Staff may have closed this seating while the guest was typing. */
+    if (PAUSE_API) {
+      PAUSE.fetched = 0;
+      pauseFetch().then(function () {
+        if (!slotPaused(S.date, toMin(S.time))) { sendBooking(); return; }
+        PAUSE_MSG = TXT.pauseGone;
+        S.time = null; buildDates(); buildSlots(); go(2);
+        btn.disabled = false; refreshCta();
+      });
+      return;
+    }
+    sendBooking();
+  }
+
+  function sendBooking() {
+    var extraNotes = S.notes +
+      (S.email ? (S.notes ? " · " : "") + "Email: " + S.email : "") +
+      (S.marketing ? " · Newsletter: YES" : "") +
+      (S.waChannel ? " · WhatsApp channel: YES" : "") +
+      " · [consent " + NOTICE_VERSION + " news:" + (S.marketing ? "Y" : "N") + " wa:" + (S.waChannel ? "Y" : "N") + "]";
+    var payload = {
+      action: "reserve", name: S.name, phone: S.phone, notes: extraNotes,
+      date: S.date, time: S.time, party: S.party, lang: LANG,
+      email: S.email, marketing: S.marketing ? "yes" : "",
+      whatsapp_channel: S.waChannel ? "yes" : "",
+      notice_version: NOTICE_VERSION, consent_ts: new Date().toISOString(),
+      dateLong: longDate(S.date),
+      plates: plateSummary().join("; "), source: "site-" + LANG,
+      cid: Date.now().toString(36) + Math.random().toString(36).slice(2, 8)
+    };
+    var done = function (ok, detail) {
+      if (!ok) {
+        $("bkgStatus").textContent = TXT.errNet + (detail ? " [" + detail + "]" : "");
+        btn.disabled = false; refreshCta(); return;
+      }
+      $("bkgStatus").textContent = "";
+      $("bkgDoneSub").textContent = TXT.done(S.party, longDate(S.date), S.time, S.name.split(" ")[0]);
+      var mn = $("bkgMailNote");
+      if (mn) mn.innerHTML = S.email ? TXT.mailNote(esc(S.email)) : "";
+      /* GTM: reservation conversion. cid is the dedupe key. */
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'reservation_complete',
+        reservation_id: payload.cid,
+        reservation_party: S.party,
+        reservation_date: S.date,
+        reservation_time: S.time,
+        reservation_language: LANG
+      });
+      buildIcs();
+      go(6);
+    };
+    fetch(API, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(payload) })
+      .then(function (r) { return r.text(); })
+      .then(function (raw) {
+        var j = JSON.parse(raw);
+        if (j.ok === true) { done(true); } else { throw new Error(j.error || "post failed"); }
+      })
+      .catch(function (e1) {
+        var qs = new URLSearchParams(payload).toString();
+        fetch(API + "?" + qs)
+          .then(function (r) { return r.json(); })
+          .then(function (j2) { done(j2.ok === true && !!j2.ref, j2.ok ? "" : (j2.error || "")); })
+          .catch(function (e2) { done(false, String(e2).slice(0, 120)); });
+      });
+  }
+
+  /* ---------------- .ics ---------------- */
+  function buildIcs() {
+    var dt = S.date.replace(/-/g, "") + "T" + S.time.replace(":", "") + "00";
+    var endMin = Math.min(toMin(S.time) + 90, 1439);
+    var dtEnd = S.date.replace(/-/g, "") + "T" + toHHMM(endMin).replace(":", "") + "00";
+    var stamp = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
+    var ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Cookaki Bell Kitchen//Reservations//EN",
+      "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "BEGIN:VEVENT",
+      "UID:" + stamp + "-" + Math.random().toString(36).slice(2) + "@bellacropolis.gr",
+      "DTSTAMP:" + stamp,
+      "DTSTART;TZID=Europe/Athens:" + dt, "DTEND;TZID=Europe/Athens:" + dtEnd,
+      "SUMMARY:Table at Cookaki | Bell Kitchen (" + S.party + " guests)",
+      "LOCATION:Cookaki | Bell Kitchen\\, Petméza 5\\, Koukáki\\, Athens 11742",
+      "DESCRIPTION:WhatsApp +30 698 237 3505. Tables are held for 15 minutes past the booking time.",
+      "STATUS:CONFIRMED", "END:VEVENT", "END:VCALENDAR"].join("\r\n");
+    $("bkgIcs").href = "data:text/calendar;charset=utf-8," + encodeURIComponent(ics);
+  }
+
+  /* ---------------- init ---------------- */
+  buildDates();
+  refreshCta();
+  pauseFetch().then(function () { buildDates(); if (S.date) buildSlots(); });
+})();
+</script>
+</body>
+</html>
